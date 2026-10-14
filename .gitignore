@@ -1,0 +1,27 @@
+# Local state: databases, sessions, keys and model credentials
+**/.local/
+**/.venv/
+**/venv/
+**/.env
+**/.env.*
+!**/.env.example
+**/deepseek.json
+**/secret-key
+*.sqlite3
+*.sqlite3-*
+*.db
+*.pem
+*.key
+
+# Generated caches and operating-system metadata
+.DS_Store
+**/__pycache__/
+*.py[cod]
+**/.coverage*
+**/.hypothesis/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.pytest_cache/
+
+# Rebuildable run artifacts (reports remain in each planning folder)
+**/evidence/

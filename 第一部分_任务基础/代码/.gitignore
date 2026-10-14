@@ -1,0 +1,10 @@
+.venv/
+.local/
+__pycache__/
+*.pyc
+.coverage
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+evidence/*.sqlite3
+evidence/coverage*

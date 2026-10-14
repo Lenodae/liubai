@@ -1,0 +1,39 @@
+{
+  "copied_database_counts": {
+    "auth_user": 1,
+    "tasks_task": 2
+  },
+  "original_source_sha256": {
+    "requirements.txt": "856f1820f3ee7688fed9580c559b7f6b3bd7630a788710c5056783d59ff84740",
+    "EVIDENCE.md": "ae6834422f9b79b110d4272e05f37105125da8aa4351c5b1828ed48829864dfa",
+    "pyproject.toml": "08cb45520a58a1bb3e875dd5a38c8d1272b264ffd2e86df2bcf3e9818e9e4a52",
+    "README.md": "ce9ad01f08281100aaaac593f5cc5b76d2310b9bbdfa84d4493e88623a3b52d1",
+    "requirements-dev.txt": "1665e45f82414c763a94685951922eccf284ff0091224a330c540c2c98316654",
+    "manage.py": "0724df81c4baa11aba05ad89bd5be56907b6a867086af28bdbd3a095990f7c20",
+    "SPEC.md": "2ec6f85839c25dd25580648e96e71f38dd9febc17007af5fa05e585d13ba60a6",
+    "start.sh": "6337fc0b878e459dc27fca706fec9fb63bce1ece28ba35c97e6a018340a51d26",
+    "tasks/services.py": "fb032bd9de0055b8f443e191993920d05880fd489a04b4f9c7553bad08e22d9d",
+    "tasks/models.py": "d4bfddf386fd7ca44083fd72c53d19828607b5123c4cb939c2a27a0f4c5fb678",
+    "tasks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tasks/views.py": "0648be020629104e67013f258223bff3c950180912d10dabc1bbad1d3d69d0a4",
+    "tools/mutations.py": "8f4d7ae37d3711db6386e877d0f93f9feadf14dbaf887d29b94009a8a4f3d48d",
+    "tools/source_state.py": "c0f5f96c3af559c8767bb6825287144be69c56e8144cb089b5b7ce271c8ed3fd",
+    "tools/verify.sh": "84545edb254aa67a763098776246eceef274eb3625e626b2be0071379d36e86f",
+    "tools/safety_check.py": "5de155b26db0ee885ca863bac8e158777997ea983007b98ad8db15ff9de4eee2",
+    "tools/browser_check.py": "3fb510734d24c277c734115945298c2b88138c791dc77fa4710fe324cd727b4e",
+    "config/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config/settings.py": "084ec75b2956573911b46bab1ad1c533b74e054efd14263c7d4ba0561a8512cc",
+    "config/urls.py": "24f785e5579162c424e4675b8abcde8877b3dfff1eb0e1d3c2d89e5f785188be",
+    "static/app.css": "349c3fbdd461faeb99ed141d270962879cecde7341ab82a5b23337c4f079ad63",
+    "static/app.js": "8ba358e32af9b017a4246f1b0a0a59093ac412871ba269fce1831c62947135d3",
+    "templates/index.html": "a293a760cabb43e5ccaf416c9280f1ea62bb5ed3ab5244f7c6766ed2bf9dee39",
+    "tasks/migrations/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tasks/migrations/0001_initial.py": "c0475e8ce7c48bb737316b50b304db99fc57d3277aec49398c1420d5df557e1d",
+    "tasks/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tasks/tests/test_adversarial.py": "2a046a12c5ebb9cc6d26a056bd9aee29ae95af8480b60702ac33c7b2c0de6bde",
+    "tasks/tests/test_api.py": "9f28198870197c3dd19f4e1aee904d9009232e072fe58eecf8dcc079111f32fd",
+    "tasks/tests/test_properties.py": "1795fc2ab982a8a4e93f4717e3c73a782be470c25190d3ba86d6cd8b1ef0fb2f"
+  },
+  "phase1": "/Users/galaxy/Desktop/人类该有什么样的生活？/第一部分_任务基础",
+  "phase2": "/Users/galaxy/Desktop/人类该有什么样的生活？/第二部分_分析与执行"
+}

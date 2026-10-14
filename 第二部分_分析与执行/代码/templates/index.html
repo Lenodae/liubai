@@ -1,0 +1,64 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c5148">
+  <meta name="description" content="记录想法，选择投入。一个给生活留白的个人任务空间。">
+  <title>留白 · 分析与执行</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%231c5148'/%3E%3Cpath d='M12 28V12h5v11h11v5Z' fill='%23daecc9'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{% static 'app.css' %}">
+  <script src="{% static 'app.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'execution.css' %}">
+  <script src="{% static 'execution.js' %}" defer></script>
+</head>
+<body>
+  <div id="boot" role="status">正在打开你的任务空间…</div>
+  <section id="auth-screen" class="auth-screen" hidden>
+    <div class="auth-story">
+      <a class="brand" href="/" aria-label="留白首页"><span class="brand-mark">L</span><span>留白<small>ROOM TO FOCUS</small></span></a>
+      <div class="story-copy"><div class="eyebrow">LESS RUSH. MORE ROOM.</div><h1>有想做的事，<br>也有留白的生活。</h1><p>先把想法放下来，再决定为谁投入。<br>让每一份承诺，都有属于它的位置。</p></div>
+      <div class="story-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-card"><span class="art-dot"></span><span>一次，只向前一点</span><div class="art-line"></div><div class="art-line short"></div><div class="art-tag">给重要的事留出空间</div></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="stem"></div><div class="art-caption">A little space, a clearer mind.</div></div>
+      <div class="story-foot"><span class="tiny-dot"></span> 你的想法，你的节奏。</div>
+    </div>
+    <main class="auth-main">
+      <div class="auth-card"><span class="section-kicker">YOUR PERSONAL SPACE</span><h2 id="auth-title">欢迎回来</h2><p id="auth-description">登录，继续照顾那些重要的小事。</p>
+        <div class="auth-tabs" role="group" aria-label="账号操作"><button id="login-tab" type="button" class="active">登录</button><button id="register-tab" type="button">创建账号</button></div>
+        <form id="auth-form"><label for="username">用户名</label><input id="username" name="username" autocomplete="username" minlength="3" maxlength="32" placeholder="3–32 位字母、数字或下划线" required pattern="[A-Za-z0-9_]{3,32}"><label for="password">密码</label><input id="password" name="password" type="password" autocomplete="current-password" maxlength="256" placeholder="输入你的密码" required><p id="password-hint" class="field-help" hidden>至少 10 位，建议混合字母、数字与符号。</p><p id="auth-error" class="error" role="alert" hidden></p><button id="auth-submit" class="primary auth-submit" type="submit">进入我的空间 <span aria-hidden="true">↗</span></button></form>
+        <p class="privacy-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4 8 9 8 9s8-5 8-9V6Z"/><path d="m8 12 3 3 5-6"/></svg> 每个账号，拥有独立的任务空间。</p>
+      </div><div class="auth-bottom">记录是起点，不是又一份负担。</div>
+    </main>
+  </section>
+
+  <div id="workspace" class="workspace" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="/"><span class="brand-mark">L</span><span>留白<small>ROOM TO FOCUS</small></span></a>
+      <div class="nav-caption">我的空间</div>
+      <nav id="navigation" aria-label="任务区域">
+        <button type="button" class="nav-item active" data-tab="in_progress"><span class="nav-icon">◉</span><span>当前清单</span><span class="nav-count" data-count="in_progress">0</span></button>
+        <button type="button" class="nav-item" data-tab="planned"><span class="nav-icon">◇</span><span>待选择</span><span class="nav-count" data-count="planned">0</span></button>
+        <button type="button" class="nav-item" data-tab="paused"><span class="nav-icon">Ⅱ</span><span>暂停一下</span><span class="nav-count" data-count="paused">0</span></button>
+        <button type="button" class="nav-item" data-tab="history"><span class="nav-icon">◷</span><span>历史记录</span><span class="nav-count" data-count="history">0</span></button>
+      </nav>
+      <div class="sidebar-note"><span class="note-spark">✳</span><p>不必让每一个想法，<br>都成为现在的任务。</p><small>给选择一点时间。</small></div>
+      <div class="account"><span id="avatar" class="avatar">U</span><div class="account-text"><strong id="account-name"></strong><small>个人任务空间</small></div><button type="button" id="logout" class="icon-button" aria-label="退出登录" title="退出登录"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4v16h6M14 8l4 4-4 4M9 12h10"/></svg></button></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div class="breadcrumb">我的空间 <span>/</span> <strong id="breadcrumb-current">当前清单</strong></div><span id="today" class="today"></span></header>
+      <section class="page-heading"><div><div class="section-kicker">MAKE ROOM FOR WHAT MATTERS</div><h1 id="page-title">当前清单<span class="title-dot">.</span></h1><p id="page-description">把精力，留给正在做的事。</p></div><button class="primary" id="new-task" type="button"><span class="plus">＋</span> 新建任务</button></section>
+      <section class="overview" aria-label="任务概览"><div class="overview-note"><span class="small-label">按照自己的节奏</span><strong>少一点分心，多一点专注。</strong><span>记录想法 · 选择投入 · 慢慢推进</span></div><div class="metric"><strong id="stat-current">0</strong><span><i class="dot green"></i>当前承诺</span></div><div class="metric"><strong id="stat-planned">0</strong><span><i class="dot gold"></i>留待选择</span></div><div class="metric"><strong id="stat-completed">0</strong><span><i class="dot muted"></i>已经完成</span></div></section>
+      <section class="task-section" aria-label="任务清单"><div class="list-toolbar"><div class="list-label"><h2 id="list-title">正在投入的事</h2><span id="visible-count">0</span></div><div class="list-controls"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="搜索任务…" aria-label="搜索任务" maxlength="120"></label><select id="sort" aria-label="排序方式"><option value="updated">最近更新</option><option value="priority">优先级优先</option></select></div></div>
+        <div id="load-error" class="load-error" hidden><span id="load-error-text"></span><button id="retry-list" type="button" class="text-button">重新加载</button></div>
+        <div id="task-list" class="task-list" aria-live="polite"></div>
+        <div id="empty" class="empty" hidden><svg class="empty-art" viewBox="0 0 150 130" aria-hidden="true"><ellipse cx="75" cy="111" rx="49" ry="7" fill="#e7ede5"/><path d="M45 51h63l-9 57H53Z" fill="#f5f7ed" stroke="#cbd7c8" stroke-width="1.5"/><path d="M75 82V36" stroke="#6b9079" stroke-width="2"/><path d="M76 64C45 66 43 43 44 35c24 0 34 11 32 29Z" fill="#bed1ae"/><path d="M76 51c-2-24 11-31 30-31 1 20-11 32-30 31Z" fill="#8dad8d"/><path d="M36 77h15M106 58h14M111 66h8" stroke="#ced7cc" stroke-width="2" stroke-linecap="round"/></svg><h3 id="empty-title">这里，还留着一片空白</h3><p id="empty-copy">先记下一个想法，再决定什么时候开始。</p><button id="empty-new" class="secondary" type="button">＋ 记录第一件事</button></div>
+        <div class="list-footer"><span><i class="tiny-dot"></i> 已保存的任务会保留在你的账号中</span><span>一步一步，也是在向前。</span></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="task-dialog" class="task-dialog" aria-labelledby="editor-heading"><div class="drawer-heading"><div><span class="section-kicker">A LITTLE STEP FORWARD</span><h2 id="editor-heading">新建任务</h2></div><button id="close-editor" class="icon-button" type="button" aria-label="关闭任务面板">×</button></div><form id="task-form"><div class="drawer-body"><p id="editor-help" class="editor-help">只需要一个名称，其他的可以慢慢补充。</p><label for="task-title">任务名称 <span class="required">*</span></label><input id="task-title" name="title" maxlength="120" required placeholder="例如：修改论文实验图"><label for="task-description">说明与完成标准</label><textarea id="task-description" name="description" maxlength="5000" rows="4" placeholder="你想做什么？做到什么程度就算完成？"></textarea><div class="form-grid"><div><label for="task-kind">任务类型</label><select id="task-kind"><option value="general">其他事项</option><option value="study">学习成长</option><option value="work">工作项目</option><option value="life">生活日常</option></select></div><div><label for="task-priority">优先级</label><select id="task-priority"><option value="normal">普通</option><option value="high">优先处理</option><option value="low">不着急</option></select></div></div><div class="form-grid"><div><label for="task-status">任务状态</label><select id="task-status"><option value="planned">待选择</option><option value="in_progress">进行中</option><option value="paused">暂停</option><option value="completed">完成</option><option value="abandoned">放弃</option></select></div><div><label for="task-hours">每周推进投入（小时）</label><input id="task-hours" type="number" min="0" max="168" step="any" placeholder="还没想好，可以留空"></div></div><p class="field-help">留空表示「未估计」，0 表示本周不投入推进时间。</p><div id="quick-actions" class="quick-actions"></div><div id="history-section" class="history-section" hidden><h3>状态足迹</h3><ol id="event-list"></ol></div><p id="save-error" class="error" role="alert" hidden></p><button id="reload-task" type="button" class="text-button" hidden>重新载入最新版本</button></div><footer class="drawer-footer"><span id="save-indicator">尚未保存</span><div><button id="cancel-editor" type="button" class="secondary">取消</button><button id="save-task" type="submit" class="primary">保存任务</button></div></footer></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  {% include "execution.html" %}
+</body>
+</html>

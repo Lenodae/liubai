@@ -1,0 +1,14 @@
+[
+  {
+    "port": 8000,
+    "homepage": 200,
+    "database_backed_login": 401,
+    "csrf_cookie": "csrftoken"
+  },
+  {
+    "port": 8001,
+    "homepage": 200,
+    "database_backed_login": 401,
+    "csrf_cookie": "taskflow2_csrf"
+  }
+]
