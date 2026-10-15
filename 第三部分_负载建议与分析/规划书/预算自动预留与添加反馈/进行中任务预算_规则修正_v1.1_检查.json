@@ -1,0 +1,20 @@
+{
+  "file": "进行中任务预算_规则修正_v1.1.pdf",
+  "pages": 1,
+  "page_size_points": [
+    842,
+    595
+  ],
+  "sha256": "a4c3aca2db05824f32900d4da5c96911d284cfc0d10fabed7b30950800e42d7e",
+  "required_chinese_and_states": {
+    "默认先记想法": true,
+    "planned": true,
+    "in_progress": true,
+    "360 分钟": true,
+    "历史快照保留": true,
+    "实际耗时另记": true
+  },
+  "text_boundary_violations": [],
+  "contains_live_data": false,
+  "generated_date": "2026-10-14"
+}

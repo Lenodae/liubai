@@ -1,9 +1,10 @@
 from django.urls import path
 
-from execution.views import workspace
+from execution.views import deepseek_settings, workspace
 from tasks import views
 
 urlpatterns = [
+    path("api/settings/deepseek", deepseek_settings),
     path("api/tasks/<uuid:task_id>/workspace", workspace),
     path("", views.home),
     path("api/me", views.me),

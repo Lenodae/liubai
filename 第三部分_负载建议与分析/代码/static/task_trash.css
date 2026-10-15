@@ -1,0 +1,20 @@
+.task-row{display:flex;align-items:stretch;min-width:0;border:1px solid var(--line);border-radius:10px;background:#fff}
+.task-row:focus-within,.task-row:hover{border-color:#b9ccb2}
+.task-row .task-card{flex:1;min-width:0;width:auto;border:0;background:transparent;box-shadow:none}
+.task-row article.task-card{cursor:default}
+.task-delete,.task-restore{align-self:center;flex-shrink:0;min-height:44px;min-width:54px;border:1px solid #eaded8;border-radius:8px;padding:10px 12px;background:#fffaf7;color:#895a4e;font-size:12px;white-space:nowrap}
+.task-delete:hover{background:#f8ece5;border-color:#d5b9ac}
+.task-restore{border-color:#d6e3d2;background:#f5f9f1;color:#416846}
+.task-restore:hover{background:#e9f2e3}
+.task-row>.task-delete,.task-row>.task-restore{margin:10px 16px 10px 0}
+.task-heading-actions{display:flex;align-items:center;gap:8px}
+.task-trash-notice{position:fixed;z-index:60;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:18px;width:760px;max-width:calc(100vw - 32px);padding:16px 20px;border:1px solid #bdd1b7;border-radius:12px;background:#f5faef;color:#36513a;box-shadow:0 10px 32px #213c3024}
+.task-trash-notice p{flex:1;min-width:0;margin:0;font-size:12px;line-height:1.85;overflow-wrap:anywhere}
+.task-trash-notice[data-state=retry],.task-trash-notice[data-state=conflict]{border-color:#dabb9e;background:#fff8ed;color:#785e43}
+.task-trash-actions{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.task-trash-actions .secondary{min-height:44px;padding:10px 12px;font-size:12px}
+.task-trash-actions .text-button{min-height:44px;padding:8px}
+.task-trash-visible .main-content{padding-bottom:max(36px,var(--task-trash-space,0px))}
+.task-trash-visible .task-dialog .drawer-body{padding-bottom:calc(30px + var(--task-trash-space,0px))}
+.task-dialog .task-trash-notice{left:auto;right:16px;transform:none;width:488px;bottom:86px}
+@media(max-width:760px){.task-row .task-card{gap:9px;padding:15px 11px}.task-row>.task-delete,.task-row>.task-restore{margin-right:10px;padding:10px;min-width:48px;font-size:11px}.task-row .task-main{flex-basis:calc(100% - 43px)}.task-row .task-time{margin-left:39px;font-size:10px;min-width:0}.task-row .status-badge{margin-left:auto;padding:4px 6px;min-width:0}.task-row .task-time span{display:block;margin:4px 0 0}.task-row .task-sub{flex-wrap:wrap;gap:5px}.task-heading-actions{gap:4px}.task-heading-actions .task-delete{font-size:11px;padding:9px;min-width:0}.task-trash-notice{bottom:max(12px,env(safe-area-inset-bottom));padding:13px 15px;gap:8px;flex-wrap:wrap}.task-trash-actions{width:100%;justify-content:flex-end}.task-trash-notice p{flex-basis:100%;font-size:11px}}

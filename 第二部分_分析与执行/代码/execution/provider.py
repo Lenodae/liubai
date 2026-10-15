@@ -2,9 +2,11 @@
 
 import json
 import os
+import ssl
 import urllib.error
 import urllib.request
 
+import certifi
 from django.conf import settings
 
 from tasks.services import ApiError
@@ -66,7 +68,8 @@ def generate(snapshot, model):
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
+        context = ssl.create_default_context(cafile=certifi.where())
+        with urllib.request.urlopen(request, timeout=60, context=context) as response:
             raw = response.read(262145)
         if len(raw) > 262144:
             raise ApiError("模型响应过大，请缩小任务后重试。")
@@ -85,5 +88,14 @@ def generate(snapshot, model):
             else "服务暂时不可用"
         )
         raise ApiError(f"DeepSeek {message}。未自动重试。") from None
-    except (OSError, ValueError, KeyError, IndexError, TypeError) as exc:
-        raise ApiError("DeepSeek 连接超时或响应格式异常。未自动重试，可手工拆分。") from exc
+    except OSError as exc:
+        reason = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+        if isinstance(reason, ssl.SSLCertVerificationError):
+            message = "HTTPS 证书校验失败，请检查本机证书或代理配置"
+        elif isinstance(reason, TimeoutError):
+            message = "请求超时，请稍后重试"
+        else:
+            message = "网络连接失败，请检查网络或代理配置"
+        raise ApiError(f"DeepSeek {message}。未自动重试，可手工拆分。") from None
+    except (ValueError, KeyError, IndexError, TypeError) as exc:
+        raise ApiError("DeepSeek 响应格式异常。未自动重试，可手工拆分。") from exc

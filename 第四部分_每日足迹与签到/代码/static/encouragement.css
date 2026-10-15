@@ -1,0 +1,10 @@
+.encouragement-toast{position:fixed;top:82px;right:24px;z-index:1000;width:360px;max-width:calc(100vw - 32px);padding:21px 45px 19px 21px;border:1px solid #cbdcc8;border-left:4px solid #709876;border-radius:13px;background:#f4f8ee;color:#294c3e;box-shadow:0 10px 32px #223e2924;overflow-wrap:anywhere;animation:encouragement-arrive .18s ease-out}
+.encouragement-toast strong{display:block;font-size:15px;font-weight:600;line-height:1.7}
+.encouragement-toast p{font-size:12px;line-height:1.8;margin:8px 0 0}
+.encouragement-toast #encouragement-progress{color:#65775f;font-size:11px}
+.encouragement-close{position:absolute;right:8px;top:8px;width:32px;height:32px;border:0;border-radius:8px;background:transparent;color:#60795f;font-size:23px;line-height:1;display:grid;place-items:center}
+.encouragement-close:hover{background:#e3ecd9}
+#encouragement-toggle[aria-pressed=false]{color:var(--muted)}
+@keyframes encouragement-arrive{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(max-width:760px){.encouragement-toast{top:74px;right:16px;padding:17px 42px 16px 17px}.encouragement-toast strong{font-size:14px}.encouragement-toast p{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.encouragement-toast{animation:none}.encouragement-close{transition:none}}

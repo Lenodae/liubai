@@ -10,7 +10,7 @@ from tasks.services import ApiError, owned_task
 
 from . import validation as v
 from .models import AnalysisRun, Draft, Event, Profile, Receipt, Step, TimeEntry
-from .serialization import entry_data, view
+from .serialization import completion_data, entry_data, view
 
 
 def event(task, kind, data, step=None):
@@ -227,6 +227,36 @@ def complete(task, data):
     )
 
 
+def completion_edit(task, data):
+    v.fields(data, ["step_id", "event_id", "note", "link"])
+    step = step_for(task, data.get("step_id"), optional=True)
+    if (step or task).status != "completed":
+        raise ApiError("只有已完成的任务或步骤可以修改完成记录。", 409)
+    current = completion_data(
+        task.execution_events.filter(step=step, kind__in=["complete", "completion_edit"]).first()
+    )
+    expected_id = current["event_id"] if current else None
+    if v.integer(data.get("event_id"), minimum=1, nullable=True) != expected_id:
+        raise ApiError("完成记录已变化，请重新打开任务后编辑当前记录。", 409)
+    after = {"note": v.text(data.get("note", "")), "link": v.link(data.get("link", ""))}
+    event(
+        task,
+        "completion_edit",
+        {
+            "event_id": expected_id,
+            "completed_at": current["completed_at"] if current else None,
+            "before": {"note": current["note"], "link": current["link"]}
+            if current
+            else {"note": "", "link": ""},
+            "after": after,
+        },
+        step,
+    )
+    if step:
+        step.version += 1
+        step.save(update_fields=["version"])
+
+
 def undo(task, data):
     v.fields(data, ["step_id"])
     step = step_for(task, data.get("step_id"), optional=True)
@@ -337,6 +367,7 @@ ACTIONS = {
     "time_edit": edit_entry,
     "time_delete": lambda t, d: edit_entry(t, d, True),
     "complete": complete,
+    "completion_edit": completion_edit,
     "undo": undo,
     "step_status": step_status,
     "verify_time": verify_time,

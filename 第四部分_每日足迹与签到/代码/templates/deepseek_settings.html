@@ -1,0 +1,15 @@
+<dialog id="deepseek-dialog" class="deepseek-dialog" aria-labelledby="deepseek-heading">
+  <header class="deepseek-heading"><div><span class="section-kicker">AI CONNECTION</span><h2 id="deepseek-heading">DeepSeek 设置</h2></div><button id="deepseek-close" type="button" class="icon-button" aria-label="关闭 DeepSeek 设置">×</button></header>
+  <p class="deepseek-intro">连接一次，让任务拆分更顺手。</p>
+  <div id="deepseek-current" class="deepseek-current" role="status">正在读取配置…</div>
+  <form id="deepseek-form" autocomplete="off">
+    <label for="deepseek-key">API Key</label>
+    <input id="deepseek-key" type="password" autocomplete="new-password" spellcheck="false" autocapitalize="none" maxlength="512" placeholder="粘贴你的 DeepSeek API Key" aria-describedby="deepseek-key-help">
+    <p id="deepseek-key-help" class="field-help">密钥仅保存在本机后端，不会回显；已有配置时留空可验证原密钥。</p>
+    <label for="deepseek-model">模型名称</label><input id="deepseek-model" value="deepseek-flash" maxlength="100" spellcheck="false" autocomplete="off" required pattern="[A-Za-z0-9._\-]+">
+    <p id="deepseek-permission" class="field-help"></p>
+    <p id="deepseek-result" class="deepseek-result" role="status" aria-live="polite" hidden></p>
+    <button id="deepseek-submit" class="primary" type="submit" disabled>验证并保存</button>
+    <p class="field-help">仅验证密钥和模型列表，不生成任务。验证通过后保存；是否有可用余额、后续生成能否成功，仍以实际调用为准。</p>
+  </form>
+</dialog>

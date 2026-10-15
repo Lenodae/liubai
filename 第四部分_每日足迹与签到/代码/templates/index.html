@@ -1,0 +1,99 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c5148">
+  <meta name="description" content="记录想法，选择投入。一个给生活留白的个人任务空间。">
+  <title>留白 · 每日足迹与预算总览</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%231c5148'/%3E%3Cpath d='M12 28V12h5v11h11v5Z' fill='%23daecc9'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{% static 'app.css' %}">
+  <script src="{% static 'duration.js' %}" defer></script>
+  <script src="{% static 'app.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'task_trash.css' %}">
+  <script src="{% static 'task_trash.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'encouragement.css' %}">
+  <script src="{% static 'encouragement.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'deepseek_settings.css' %}">
+  <script src="{% static 'deepseek_settings.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'execution.css' %}">
+  <script src="{% static 'execution.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'load.css' %}">
+  <link rel="stylesheet" href="{% static 'budget_reservation.css' %}">
+  <link rel="stylesheet" href="{% static 'load_feeling.css' %}">
+  <script src="{% static 'load_feeling.js' %}" defer></script>
+  <script src="{% static 'budget_reservation.js' %}" defer></script>
+  <script src="{% static 'load.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'daily_encouragement.css' %}">
+  <script src="{% static 'daily_encouragement.js' %}" defer></script>
+  <link rel="stylesheet" href="{% static 'footprints.css' %}">
+  <script src="{% static 'footprints.js' %}" defer></script>
+</head>
+<body>
+  <div id="boot" role="status">正在打开你的任务空间…</div>
+  <section id="auth-screen" class="auth-screen" hidden>
+    <div class="auth-story">
+      <a class="brand" href="/" aria-label="留白首页"><span class="brand-mark">L</span><span>留白<small>ROOM TO FOCUS</small></span></a>
+      <div class="story-copy"><div class="eyebrow">LESS RUSH. MORE ROOM.</div><h1>有想做的事，<br>也有留白的生活。</h1><p>先把想法放下来，再决定为谁投入。<br>让每一份承诺，都有属于它的位置。</p></div>
+      <div class="story-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-card"><span class="art-dot"></span><span>一次，只向前一点</span><div class="art-line"></div><div class="art-line short"></div><div class="art-tag">给重要的事留出空间</div></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="stem"></div><div class="art-caption">A little space, a clearer mind.</div></div>
+      <div class="story-foot"><span class="tiny-dot"></span> 你的想法，你的节奏。</div>
+    </div>
+    <main class="auth-main">
+      <div class="auth-card"><span class="section-kicker">YOUR PERSONAL SPACE</span><h2 id="auth-title">欢迎回来</h2><p id="auth-description">登录，继续照顾那些重要的小事。</p>
+        <div class="auth-tabs" role="group" aria-label="账号操作"><button id="login-tab" type="button" class="active">登录</button><button id="register-tab" type="button">创建账号</button></div>
+        <form id="auth-form"><label for="username">用户名</label><input id="username" name="username" autocomplete="username" minlength="3" maxlength="32" placeholder="3–32 位字母、数字或下划线" required pattern="[A-Za-z0-9_]{3,32}"><label for="password">密码</label><input id="password" name="password" type="password" autocomplete="current-password" maxlength="256" placeholder="输入你的密码" required><p id="password-hint" class="field-help" hidden>至少 10 位，建议混合字母、数字与符号。</p><p id="auth-error" class="error" role="alert" hidden></p><button id="auth-submit" class="primary auth-submit" type="submit">进入我的空间 <span aria-hidden="true">↗</span></button></form>
+        <p class="privacy-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4 8 9 8 9s8-5 8-9V6Z"/><path d="m8 12 3 3 5-6"/></svg> 每个账号，拥有独立的任务空间。</p>
+      </div><div class="auth-bottom">记录是起点，不是又一份负担。</div>
+    </main>
+  </section>
+
+  <div id="workspace" class="workspace" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="/"><span class="brand-mark">L</span><span>留白<small>ROOM TO FOCUS</small></span></a>
+      <div class="nav-caption">我的空间</div>
+      <nav id="navigation" aria-label="我的空间导航">
+        <button type="button" class="nav-item" data-route="overview"><span class="nav-icon">◫</span><span>预算与总览</span></button>
+        <button type="button" class="nav-item" data-route="load"><span class="nav-icon">≋</span><span>负载与建议</span></button>
+        <button type="button" class="nav-item" data-route="deadlines"><span class="nav-icon">◷</span><span>期限检查</span></button>
+        <button type="button" class="nav-item" data-route="review"><span class="nav-icon">↶</span><span>每周回顾</span></button>
+        <button type="button" class="nav-item active" data-tab="in_progress"><span class="nav-icon">◉</span><span>当前清单</span><span class="nav-count" data-count="in_progress">0</span></button>
+        <button type="button" class="nav-item" data-tab="planned"><span class="nav-icon">◇</span><span>想法池</span><span class="nav-count" data-count="planned">0</span></button>
+        <button type="button" class="nav-item" data-tab="paused"><span class="nav-icon">Ⅱ</span><span>暂停一下</span><span class="nav-count" data-count="paused">0</span></button>
+        <button type="button" class="nav-item" data-tab="history"><span class="nav-icon">◷</span><span>历史记录</span><span class="nav-count" data-count="history">0</span></button>
+        <button type="button" class="nav-item" data-tab="trash"><span class="nav-icon">⌑</span><span>回收站</span><span class="nav-count" data-count="trash">0</span></button>
+      </nav>
+      <div class="sidebar-note"><span class="note-spark">✳</span><p>不必让每一个想法，<br>都成为现在的任务。</p><small>给选择一点时间。</small></div>
+      <div class="account"><span id="avatar" class="avatar">U</span><div class="account-text"><strong id="account-name"></strong><small>个人任务空间</small></div><button type="button" id="logout" class="icon-button" aria-label="退出登录" title="退出登录"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4v16h6M14 8l4 4-4 4M9 12h10"/></svg></button></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div class="breadcrumb">我的空间 <span>/</span> <strong id="breadcrumb-current">预算与总览</strong></div><span id="today" class="today"></span></header>
+      <section class="page-heading"><div><div class="section-kicker">MAKE ROOM FOR WHAT MATTERS</div><h1 id="page-title">预算与总览<span class="title-dot">.</span></h1><p id="page-description">先看时间和承诺，再决定下一步。</p></div><button class="primary" id="new-task" type="button"><span class="plus">＋</span> 记录想法</button></section>
+      <section id="daily-encouragement" class="daily-encouragement" aria-labelledby="daily-encouragement-heading" data-quotes-url="{% static 'data/daily_encouragement.json' %}">
+        <div class="daily-encouragement-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="6"/><path d="M16 3v3m0 20v3M3 16h3m20 0h3M7 7l2 2m14 14 2 2M7 25l2-2M23 9l2-2"/></svg></div>
+        <div class="daily-encouragement-body">
+          <div class="daily-encouragement-heading"><h2 id="daily-encouragement-heading">今日鼓励</h2><time id="daily-encouragement-date"></time></div>
+          <blockquote id="daily-encouragement-text" aria-live="polite" aria-atomic="true">慢慢来，今天先迈出一小步。</blockquote>
+          <div class="daily-encouragement-footer"><span id="daily-encouragement-source">— 留白</span><a href="{% static 'data/daily_encouragement_sources.txt' %}" target="_blank" rel="noopener">语句来源<span class="sr-only">（在新标签页打开）</span></a><button id="daily-encouragement-retry" class="text-button" type="button" hidden>重新载入今日语句</button></div>
+        </div>
+        <div class="footprints-today"><span id="footprints-today-label">给今天留一个小记号</span><button id="footprints-checkin" class="primary" type="button" disabled>今日签到</button><button id="footprints-today-detail" class="text-button" type="button" disabled>看看今天 / 休息一下</button></div>
+      </section>
+      <div class="load-utilities"><span>第四部分 · 每日足迹与签到</span><div class="load-utility-actions"><button id="encouragement-toggle" class="text-button" type="button" aria-pressed="true" title="只保存本机当前账号的偏好">完成鼓励：开</button><button id="deepseek-open" class="text-button" type="button">DeepSeek 设置 <span id="deepseek-badge" class="deepseek-badge" role="status">待检查</span></button></div></div>
+      <div id="draft-recovery" class="load-notice" hidden><span>上次还有未保存的输入，已为本账号保留。</span><button id="restore-draft" type="button" class="secondary">恢复未保存输入</button></div>
+      <div id="load-root"></div>
+      <section id="task-counters" class="overview" aria-label="任务概览"><div class="overview-note"><span class="small-label">按照自己的节奏</span><strong>少一点分心，多一点专注。</strong><span>记录想法 · 选择投入 · 慢慢推进</span></div><div class="metric"><strong id="stat-current">0</strong><span><i class="dot green"></i>当前承诺</span></div><div class="metric"><strong id="stat-planned">0</strong><span><i class="dot gold"></i>留待选择</span></div><div class="metric"><strong id="stat-completed">0</strong><span><i class="dot muted"></i>已经完成</span></div></section>
+      <section id="task-section" class="task-section" aria-label="任务清单"><div class="list-toolbar"><div class="list-label"><h2 id="list-title">正在投入的事</h2><span id="visible-count">0</span></div><div class="list-controls"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="搜索任务…" aria-label="搜索任务" maxlength="120"></label><select id="sort" aria-label="排序方式"><option value="updated">最近更新</option><option value="priority">优先级优先</option></select></div></div>
+        <div id="load-error" class="load-error" hidden><span id="load-error-text"></span><button id="retry-list" type="button" class="text-button">重新加载</button></div>
+        <div id="task-list" class="task-list" aria-live="polite"></div>
+        <div id="empty" class="empty" hidden><svg class="empty-art" viewBox="0 0 150 130" aria-hidden="true"><ellipse cx="75" cy="111" rx="49" ry="7" fill="#e7ede5"/><path d="M45 51h63l-9 57H53Z" fill="#f5f7ed" stroke="#cbd7c8" stroke-width="1.5"/><path d="M75 82V36" stroke="#6b9079" stroke-width="2"/><path d="M76 64C45 66 43 43 44 35c24 0 34 11 32 29Z" fill="#bed1ae"/><path d="M76 51c-2-24 11-31 30-31 1 20-11 32-30 31Z" fill="#8dad8d"/><path d="M36 77h15M106 58h14M111 66h8" stroke="#ced7cc" stroke-width="2" stroke-linecap="round"/></svg><h3 id="empty-title">这里，还留着一片空白</h3><p id="empty-copy">先记下一个想法，再决定什么时候开始。</p><button id="empty-new" class="secondary" type="button">＋ 记录第一个想法</button></div>
+        <div class="list-footer"><span><i class="tiny-dot"></i> 已保存的任务会保留在你的账号中</span><span>一步一步，也是在向前。</span></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="task-dialog" class="task-dialog" aria-labelledby="editor-heading"><div class="drawer-heading"><div><span class="section-kicker">A LITTLE STEP FORWARD</span><h2 id="editor-heading">记录一个想法</h2></div><div class="task-heading-actions"><button id="delete-task" class="task-delete" type="button" hidden>删除任务</button><button id="close-editor" class="icon-button" type="button" aria-label="关闭任务面板">×</button></div></div><form id="task-form"><div class="drawer-body"><p id="editor-help" class="editor-help">只需要一个名称，其他的可以慢慢补充。</p><label for="task-title">想法名称 <span class="required">*</span></label><input id="task-title" name="title" maxlength="120" required placeholder="例如：想试着做一个小实验"><label for="task-description">想法说明（可以慢慢补充）</label><textarea id="task-description" name="description" maxlength="5000" rows="4" placeholder="你在想什么？现在还不确定也可以先记下来。"></textarea><details id="task-more-settings" class="task-more-settings"><summary>更多设置（开始后使用）</summary><div class="form-grid"><div><label for="task-kind">任务类型</label><select id="task-kind"><option value="general">其他事项</option><option value="study">学习成长</option><option value="work">工作项目</option><option value="life">生活日常</option></select></div><div><label for="task-priority">优先级</label><select id="task-priority"><option value="normal">普通</option><option value="high">优先处理</option><option value="low">不着急</option></select></div></div><div class="form-grid"><div><label for="task-status">任务状态</label><select id="task-status"><option value="planned">想法 / 待开始</option><option value="in_progress">进行中</option><option value="paused">暂停</option><option value="completed">完成</option><option value="abandoned">放弃</option></select></div><div><label id="task-hours-label" for="task-hours">预计本周投入（小时，可后补）</label><input id="task-hours" type="number" min="0" max="168" step="any" placeholder="未知可留空；明确不占用填 0"></div></div><div class="form-grid"><div><label for="task-budget-schedule">时间安排</label><select id="task-budget-schedule"><option value="weekly">周事项 · 开始后计入所选周</option><option value="recurring">长期事项 · 进行中每周计入</option></select></div><div><label id="task-budget-week-label" for="task-budget-week">安排在哪一周</label><input id="task-budget-week" type="date" required></div></div><p id="task-budget-help" class="field-help">想法不占用预算，开始投入后才计入；时间可以稍后补充。</p></details><div id="quick-actions" class="quick-actions"></div><div id="history-section" class="history-section" hidden><h3>状态足迹</h3><ol id="event-list"></ol></div><p id="save-error" class="error" role="alert" hidden></p><button id="reload-task" type="button" class="text-button" hidden>重新载入最新版本</button></div><footer class="drawer-footer"><span id="save-indicator">尚未保存</span><div><button id="cancel-editor" type="button" class="secondary">取消</button><button id="save-task" type="submit" class="primary">保存想法</button></div></footer></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  {% include "execution.html" %}
+  {% include "deepseek_settings.html" %}
+</body>
+</html>

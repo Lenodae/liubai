@@ -50,6 +50,7 @@ async function api(path, { method = 'GET', body, headers = {}, protectedRequest 
   return data;
 }
 function clearPrivateUI() {
+  window.DeepSeekSettings?.lock();
   window.Execution?.lock();
   state.tasks = [];
   state.counts = {};
@@ -90,6 +91,7 @@ async function enterWorkspace(user) {
   $('password').value = '';
   $('account-name').textContent = user.username;
   $('avatar').textContent = user.username.slice(0, 1).toUpperCase();
+  window.DeepSeekSettings?.refresh();
   setTab('in_progress', false);
   await loadTasks();
   window.Execution?.resume(user);

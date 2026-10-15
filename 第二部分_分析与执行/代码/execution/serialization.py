@@ -21,6 +21,20 @@ def actual(query):
     return query.filter(voided_at__isnull=True).aggregate(total=Sum("minutes"))["total"]
 
 
+def completion_data(record):
+    if record is None:
+        return None
+    edited = record.kind == "completion_edit"
+    content = record.data["after"] if edited else record.data
+    return {
+        "event_id": record.data["event_id"] if edited else record.id,
+        "completed_at": record.data["completed_at"] if edited else record.created_at.isoformat(),
+        "updated_at": record.created_at.isoformat(),
+        "note": content.get("note", ""),
+        "link": content.get("link", ""),
+    }
+
+
 def view(task):
     from .provider import configuration
 
@@ -30,6 +44,10 @@ def view(task):
         for k in ["criterion", "foundation", "constraints", "available_minutes"]
     }
     p["deadline"] = profile.deadline.isoformat() if profile.deadline else ""
+    completions = {}
+    for record in task.execution_events.filter(kind__in=["complete", "completion_edit"]).iterator():
+        if record.step_id not in completions:
+            completions[record.step_id] = completion_data(record)
     steps = []
     for step in task.steps.prefetch_related("depends"):
         steps.append(
@@ -38,6 +56,7 @@ def view(task):
                 "title": step.title,
                 "criterion": step.criterion,
                 "status": step.status,
+                "completion": completions.get(step.id) if step.status == "completed" else None,
                 "effective_status": "paused"
                 if task.status == "paused" and step.status not in ("completed", "abandoned")
                 else step.status,
@@ -87,6 +106,7 @@ def view(task):
     config = configuration()
     return {
         "task": serialize_task(task),
+        "completion": completions.get(None) if task.status == "completed" else None,
         "profile": p,
         "steps": steps,
         "drafts": drafts,

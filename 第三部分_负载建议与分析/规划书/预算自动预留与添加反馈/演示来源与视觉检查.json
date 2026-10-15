@@ -1,0 +1,34 @@
+{
+  "document": "预算自动预留与添加反馈_讲解演示_v1.0.pdf",
+  "sha256": "096ecb380215451b1b54a0d3679176d07ac3ead5a8463d1d845b8c80a6b60f34",
+  "visual_review": "9页缩略图与真实截图逐页检查完成，未见内容越界、文本重叠、图片变形或中文缺字。",
+  "data_source": "临时8030浏览器测试的独立pdf_demo合成账号，非正式账号或真实任务。",
+  "example": {
+    "budget_minutes": 600,
+    "buffer_minutes": 60,
+    "capacity_minutes": 540,
+    "weekly_task_minutes": 120,
+    "recurring_task_minutes": 180,
+    "reserved_minutes": 300,
+    "available_minutes": 240
+  },
+  "screenshots": [
+    {
+      "file": "预算总览_自动预留300分钟.png",
+      "sha256": "5890fba5391a011dffa164a0985c5a1404213ffaced6bfd1a8628fbcc9078534",
+      "pdf_presentation_clip": [
+        0,
+        211,
+        946,
+        621
+      ]
+    },
+    {
+      "file": "添加长期任务后的预算反馈.png",
+      "sha256": "a9dedb03845b23cd7931329a001712b8a8a0f1b793f7bae8444824e5fe93114a",
+      "pdf_presentation_clip": null
+    }
+  ],
+  "original_screenshots_preserved": true,
+  "budget_ring": "弧长以总预算600为分母；任务预留300、缓冲60、可再安排240。负载比例300/540=55.6%另行解释，未冒充圆环占比。"
+}

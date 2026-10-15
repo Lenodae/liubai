@@ -1,0 +1,14 @@
+.daily-encouragement{display:none;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:19px 23px;margin:0 0 20px;background:linear-gradient(110deg,#f0f5e9,#f8faf3);border:1px solid #dfe8d5;border-radius:12px;color:var(--ink)}
+.workspace[data-page=overview] .daily-encouragement{display:grid}
+.daily-encouragement-icon{width:40px;height:40px;display:grid;place-items:center;background:#e7eedb;border-radius:50%;color:#7a9167}
+.daily-encouragement-icon svg{width:28px;height:28px;stroke-width:1.4}
+.daily-encouragement-body{min-width:0}
+.daily-encouragement-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:9px}
+.daily-encouragement-heading h2{font-size:12px;font-weight:550;color:#68815b;margin:0}
+.daily-encouragement-heading time{font-size:11px;line-height:1.6;color:#718067;white-space:nowrap}
+.daily-encouragement blockquote{font-size:17px;font-weight:500;line-height:1.85;letter-spacing:.25px;margin:0;overflow-wrap:anywhere}
+.daily-encouragement-footer{display:flex;align-items:center;flex-wrap:wrap;gap:6px 15px;margin-top:8px;color:#718067;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+.daily-encouragement-footer a{margin-left:auto;text-decoration:underline;text-underline-offset:3px;color:#697a60}
+.daily-encouragement-footer .text-button{font-size:11px;padding:2px 0}
+.daily-encouragement .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:760px){.daily-encouragement{grid-template-columns:28px minmax(0,1fr);gap:10px;padding:16px 14px;margin-bottom:16px}.daily-encouragement-icon{width:28px;height:28px}.daily-encouragement-icon svg{width:22px;height:22px}.daily-encouragement blockquote{font-size:15px;line-height:1.9}.daily-encouragement-heading{gap:8px;flex-wrap:wrap}.daily-encouragement-heading time{font-size:10px}}

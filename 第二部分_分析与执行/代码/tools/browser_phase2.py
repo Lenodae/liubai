@@ -63,7 +63,18 @@ def run():
         page.locator("#ex-apply").click()
         expect(page.locator(".ex-step")).to_have_count(2)
         expect(page.locator("#ex-analysis")).to_contain_text("覆盖估时下限")
-        first = page.locator(".ex-step").first
+        first_id = page.locator(".ex-step").first.get_attribute("data-step-id")
+        first = page.locator(f'.ex-step[data-step-id="{first_id}"]')
+        page.locator("#ex-step-search").fill("  小例子  ")
+        expect(page.locator(".ex-step")).to_have_count(1)
+        expect(first.locator("h4")).to_have_text("1. 手算一个小例子")
+        page.locator("#ex-step-search").fill("每一步结果")
+        expect(page.locator(".ex-step")).to_have_count(1)
+        page.locator("#ex-step-search").fill("没有这个步骤")
+        expect(page.locator(".ex-step")).to_have_count(0)
+        expect(page.locator("#ex-steps")).to_contain_text("没有找到匹配的步骤")
+        page.locator("#ex-step-search-clear").click()
+        expect(page.locator(".ex-step")).to_have_count(2)
         first.get_by_role("button", name="开始", exact=True).click()
         expect(first.locator(".ex-status")).to_have_text("进行中")
         first.get_by_role("button", name="记一次时间", exact=True).click()
@@ -82,6 +93,7 @@ def run():
         expect(page.locator(".ex-entry")).to_have_count(1)
         expect(page.locator("#ex-summary")).to_contain_text("90 分钟")
         page.locator('[data-ex-tab="steps"]').click()
+        page.locator("#ex-step-search").fill("每一步结果")
         first.get_by_role("button", name="登记完成", exact=True).click()
         page.locator("#ex-extra").fill("30")
         page.locator("#ex-complete-note").fill("核对完成")
@@ -89,10 +101,47 @@ def run():
         page.get_by_role("button", name="确认完成", exact=True).click()
         expect(first.locator(".ex-status")).to_have_text("完成")
         expect(page.locator("#ex-summary")).to_contain_text("120 分钟")
+        expect(page.locator("#ex-step-search")).to_have_value("每一步结果")
+        expect(page.locator(".ex-step")).to_have_count(1)
+        page.locator("#ex-step-search-clear").click()
+        expect(page.locator(".ex-step").first.locator("h4")).to_have_text("2. 写出可运行代码")
+        expect(page.locator(".ex-step").last).to_have_attribute("data-step-id", first_id)
         page.locator("#execution-dialog").evaluate("el => el.scrollTop = 0")
         page.screenshot(path=str(ROOT / "evidence/phase2-steps.png"), full_page=True)
+        first.get_by_role("button", name="编辑完成记录", exact=True).click()
+        expect(page.locator("#ex-complete-heading")).to_have_text("编辑完成记录")
+        expect(page.locator("#ex-complete-note")).to_have_value("核对完成")
+        expect(page.locator("#ex-complete-new-fields")).to_be_hidden()
+        original_completed_at = page.locator("#ex-complete-record-meta").inner_text()
+        page.locator("#ex-complete-note").fill("补充说明：已整理核对过程")
+        page.locator("#ex-complete-link").fill("https://example.com/results")
+        page.route(
+            "**/workspace",
+            lambda route: route.abort() if route.request.method == "POST" else route.continue_(),
+        )
+        page.get_by_role("button", name="保存修改", exact=True).click()
+        expect(page.locator("#ex-error")).to_contain_text("未保存")
+        expect(page.locator("#ex-complete-note")).to_have_value("补充说明：已整理核对过程")
+        page.unroute("**/workspace")
+        page.locator("#ex-retry").click()
+        expect(first).to_contain_text("补充说明：已整理核对过程")
+        expect(first.locator(".ex-status")).to_have_text("完成")
+        expect(page.locator(".ex-step").last).to_have_attribute("data-step-id", first_id)
+        expect(page.locator("#ex-summary")).to_contain_text("120 分钟")
+        expect(page.locator("#ex-complete-record-meta")).to_have_text(original_completed_at)
+        page.locator('[data-ex-tab="history"]').click()
+        expect(page.locator("#ex-history")).to_contain_text("修改完成记录")
+        expect(page.locator("#ex-history")).to_contain_text("核对完成 → 补充说明：已整理核对过程")
+        page.locator('[data-ex-tab="steps"]').click()
+        page.locator("#ex-refresh").click()
+        expect(page.locator("#ex-notice")).to_contain_text("已载入最新版本")
+        first.get_by_role("button", name="编辑完成记录", exact=True).click()
+        expect(page.locator("#ex-complete-note")).to_have_value("补充说明：已整理核对过程")
+        expect(page.locator("#ex-complete-link")).to_have_value("https://example.com/results")
+        page.screenshot(path=str(ROOT / "evidence/completion-edit-desktop.png"), full_page=True)
         first.get_by_role("button", name="撤销完成", exact=True).click()
         expect(first.locator(".ex-status")).to_have_text("进行中")
+        expect(page.locator(".ex-step").first).to_have_attribute("data-step-id", first_id)
         expect(page.locator("#ex-summary")).to_contain_text("120 分钟")
         page.locator('[data-ex-tab="time"]').click()
         page.locator(".ex-entry").first.get_by_role("button", name="修改", exact=True).click()
@@ -110,6 +159,10 @@ def run():
         expect(page.locator("#ex-summary")).to_contain_text("135 分钟")
         page.set_viewport_size({"width": 390, "height": 844})
         page.locator('[data-ex-tab="steps"]').click()
+        expect(page.locator("#ex-step-search")).to_be_visible()
+        page.locator("#ex-step-search").fill("可运行")
+        expect(page.locator(".ex-step")).to_have_count(1)
+        expect(page.locator(".ex-step h4")).to_have_text("2. 写出可运行代码")
         page.locator("#execution-dialog").evaluate("el => el.scrollTop = 0")
         page.screenshot(path=str(ROOT / "evidence/phase2-mobile.png"), full_page=True)
         assert page.evaluate(
@@ -153,6 +206,11 @@ def run():
             "checks": [
                 "manual draft and apply",
                 "dependency execution",
+                "step search by title and completion criterion, clear and no matches",
+                "completed steps last, stable numbering, undo restores order",
+                "edit completion keeps state, original time and 120 minutes; persists with audit",
+                "completion edit network retry retains input",
+                "search retained across completion",
                 "90+30=120",
                 "undo preserves time",
                 "edit ledger 135",
