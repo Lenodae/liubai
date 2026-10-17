@@ -1,0 +1,19 @@
+[data-load-feeling=light]{--feeling-accent:#5d866e;--feeling-bg:#f0f6ef;--feeling-border:#d7e5d6}
+[data-load-feeling=balanced]{--feeling-accent:#286753;--feeling-bg:#edf5ef;--feeling-border:#d3e4d8}
+[data-load-feeling=challenge]{--feeling-accent:#827135;--feeling-bg:#f8f5e9;--feeling-border:#e6dfbf}
+[data-load-feeling=high]{--feeling-accent:#986138;--feeling-bg:#fbf2e8;--feeling-border:#ecd7bd}
+[data-load-feeling=full]{--feeling-accent:#a1583b;--feeling-bg:#fcf0e9;--feeling-border:#edd2c3}
+[data-load-feeling=overload]{--feeling-accent:#a1574c;--feeling-bg:#fcf0ec;--feeling-border:#edcdc4}
+[data-load-feeling=unknown],[data-load-feeling=zero]{--feeling-accent:#677567;--feeling-bg:#f1f4ef;--feeling-border:#dfe5dc}
+.load-verdict[data-load-feeling]{color:var(--feeling-accent);background:var(--feeling-bg);border-color:var(--feeling-border)}
+.load-feeling-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11px}
+.load-feeling-percent{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.load-verdict .load-feeling-message{font-size:13px;line-height:1.85;margin:9px 0}
+.load-verdict .load-feeling-basis{font-size:10px;line-height:1.8;opacity:.85}
+.budget-chart[data-load-feeling]:not([data-load-feeling=unknown]):not([data-load-feeling=zero]){--budget-load:var(--feeling-accent)}
+.budget-feeling-badge{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--feeling-accent);background:var(--feeling-bg);border:1px solid var(--feeling-border);border-radius:8px;padding:10px 12px;margin-top:14px;font-size:11px;line-height:1.7}
+.budget-feeling-badge strong{font-weight:600;font-size:12px}
+.budget-feeling-badge small{font-size:10px;color:#718175}
+.budget-feeling-basis{font-size:10px;color:#718175;line-height:1.8;margin:8px 0 0}
+.load-utility-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:760px){.load-utilities{align-items:flex-start}.load-utility-actions{gap:3px 10px;max-width:65%}.load-verdict .load-feeling-message{font-size:12px}.budget-feeling-badge{padding:9px 10px}.load-feeling-percent{font-size:12px}}

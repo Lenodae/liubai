@@ -1,0 +1,60 @@
+留白 · 日常鼓励本地句库来源与许可
+
+整理日期：2026-10-15（Asia/Shanghai）
+整理内容：300 条中文短句；189 条一言原创分类语句、111 条古代诗词及古文。
+用途：预算与任务总览中的每日一句；运行时从本机静态 JSON 读取，不访问外部句子 API。
+
+一、下载来源
+
+项目：一言开源社区官方句子包 hitokoto-osc/sentences-bundle
+项目地址：https://github.com/hitokoto-osc/sentences-bundle
+固定版本：045dca021bb334d0b83a011d447482ab5ffdf67b
+版本地址：https://github.com/hitokoto-osc/sentences-bundle/tree/045dca021bb334d0b83a011d447482ab5ffdf67b
+
+本次实际通过 jsDelivr 的固定 Git commit 镜像下载下列文件：
+
+https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@045dca021bb334d0b83a011d447482ab5ffdf67b/sentences/e.json
+原始文件 SHA-256：82b020faebdff102bbd2daad3d7b36978f063b598daa21736242e87231301b4d
+原始条数：1485。分类 e：原创。
+
+https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@045dca021bb334d0b83a011d447482ab5ffdf67b/sentences/i.json
+原始文件 SHA-256：4a244cd2ea6f1fc50dd097d7fc1a0424cc597d80e4cf686c76688b4fd0917a40
+原始条数：753。分类 i：诗词。
+
+https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@045dca021bb334d0b83a011d447482ab5ffdf67b/LICENSE
+原始文件 SHA-256：8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef
+原样副本：LICENSE.hitokoto-AGPL-3.0.txt
+
+https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@045dca021bb334d0b83a011d447482ab5ffdf67b/README.md
+原始文件 SHA-256：ba07b880c341602154385a52c64c4bad2b03abb70fb7c8cec0802d6985dd15db
+原样副本：hitokoto-upstream-NOTICE.txt
+
+二、筛选与改动
+
+先按中文长度、主题及排除词筛选，再逐条阅读候选，另进行独立复核。
+保留循序渐进、自我接纳、休息、学习与探索、日常生活、温暖友情及清朗山水等内容。
+剔除明显的悲观绝望、死亡暴力、失恋、羞辱比较、过劳要求、强迫积极、夸大成功保证等内容。
+未选歌词、影视台词分类；发现原创分类里明确标注为歌词、影视或现代文学摘录的内容也予以排除。
+诗词仅选古代作品；山水、清欢与闲适语句用于让每日阅读不只围绕绩效和完成任务。
+筛选是产品文案判断，不代表对每条提交记录的著作权或古籍归属作独立认证。
+
+本地文件 daily_encouragement.json 含完整的 300 条选定数据，可以直接下载、查看和修改。
+正文 text 逐字保留上游 hitokoto 字段，没有改写或将新编文案冒充下载内容。
+source 保留上游 from；author 只在上游 from_who 明确存在时保留，不将投稿者 creator 冒充作者。
+id 为 hitokoto- 加上游 UUID；upstream_id、upstream_category 与 source_url 保留可核对的来源。
+每条 source_url 指向 https://hitokoto.cn/?uuid=对应UUID。
+使用 Python random.Random(20261015) 固定打散候选顺序，并将 upstream_id=10062 放在首位。
+当天句子的选择由本地日期轮换逻辑决定，不需要密钥，也不请求外部模型。
+
+三、许可与版权说明
+
+上游句子包采用 GNU Affero General Public License v3.0（AGPL-3.0）；全文见同目录
+LICENSE.hitokoto-AGPL-3.0.txt。该文件未经修改。
+此整理后的句库遵循同一许可；daily_encouragement.json 即其完整可编辑数据源，
+本说明、固定上游版本、字段映射及每条来源用于复核和再整理。
+这些是独立句库资产的许可说明，不将其他项目文件重新授权。
+
+上游 README 提醒：句库著作权并非完全由一言网持有；原创投稿依其授权分享，
+原作者不希望参与公共分享时可联系 i@loli.online。详细原文保留于
+hitokoto-upstream-NOTICE.txt。此处保留原作者和作品出处，不声称上游库许可
+自动覆盖所有第三方作品的全部权利。后续发布或修改句库时，请一并保留这些来源和许可文件。

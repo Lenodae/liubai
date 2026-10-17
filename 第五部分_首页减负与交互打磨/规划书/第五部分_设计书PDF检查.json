@@ -1,0 +1,44 @@
+{
+  "pdf": "第五部分_首页减负与交互设计书_v1.0.pdf",
+  "status": "design proposal, not an implementation completion claim",
+  "pages": 7,
+  "page_size_pt": [
+    842,
+    595
+  ],
+  "pymupdf": "1.27.2.3",
+  "python": "3.14.4",
+  "font": "/Library/Fonts/Arial Unicode.ttf",
+  "sha256": "72f9f0b55519bc54a7b49470015bb5b5cc711de02402cb7715641e866926b09f",
+  "characters_extracted": 3465,
+  "required_text_found": [
+    "少找一步",
+    "20 小时",
+    "可再安排",
+    "睡眠",
+    "继续上次查看",
+    "aria-expanded",
+    "8004",
+    "设计提案",
+    "有待补时间",
+    "负载分析页仍默认展开"
+  ],
+  "out_of_bounds_text": [],
+  "manual_visual_check": "passed: previously reviewed all seven pages; revised pages 2 and 6 reviewed again at full rendered size after budget contribution disclosure addition; no clipping, overlap, missing glyphs, or contrast problems observed",
+  "titles": [
+    "少找一步，更容易继续",
+    "首页结构：预算之后，立刻能继续",
+    "预算口径：同一段时间，只安排一次",
+    "继续入口与足迹：记住偏好，保留选择",
+    "手机优先：清楚、够大、够近",
+    "典型使用：先理解，再继续，随时调整",
+    "独立落地与验收：先设计，再证明"
+  ],
+  "visual_check_artifacts": [
+    "预览图/设计书_总览.png",
+    "预览图/设计书_02.png",
+    "预览图/设计书_05.png",
+    "预览图/设计书_06.png"
+  ],
+  "revision": "Budget contribution sources default collapsed on overview, summary count and missing-time label, task links and expansion preserved during refresh; analysis view stays expanded."
+}

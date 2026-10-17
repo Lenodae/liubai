@@ -1,0 +1,2661 @@
+{
+  "version": 1,
+  "source_url": "https://github.com/hitokoto-osc/sentences-bundle/tree/045dca021bb334d0b83a011d447482ab5ffdf67b",
+  "license": "AGPL-3.0",
+  "license_file": "LICENSE.hitokoto-AGPL-3.0.txt",
+  "retrieved_on": "2026-10-15",
+  "revision": "045dca021bb334d0b83a011d447482ab5ffdf67b",
+  "shuffle_seed": 20261015,
+  "quotes": [
+    {
+      "id": "hitokoto-278d550a-4dab-4bf4-ab6e-ad646c83cfc3",
+      "text": "希望你像晴天一样明媚，然后好好吃饭。",
+      "source": "自己",
+      "source_url": "https://hitokoto.cn/?uuid=278d550a-4dab-4bf4-ab6e-ad646c83cfc3",
+      "upstream_id": 10062,
+      "upstream_category": "e",
+      "author": "墨韩"
+    },
+    {
+      "id": "hitokoto-ec343761-23a4-468d-a85b-858bda470423",
+      "text": "日出江花红胜火，春来江水绿如蓝。",
+      "source": "忆江南·江南好",
+      "source_url": "https://hitokoto.cn/?uuid=ec343761-23a4-468d-a85b-858bda470423",
+      "upstream_id": 5834,
+      "upstream_category": "i",
+      "author": "白居易"
+    },
+    {
+      "id": "hitokoto-df4b3030-50d8-4005-88ad-4eb034a68cc0",
+      "text": "两个黄鹂鸣翠柳，一行白鹭上青天。",
+      "source": "绝句",
+      "source_url": "https://hitokoto.cn/?uuid=df4b3030-50d8-4005-88ad-4eb034a68cc0",
+      "upstream_id": 5736,
+      "upstream_category": "i",
+      "author": "杜甫"
+    },
+    {
+      "id": "hitokoto-814aae08-276e-44e2-8e5a-151bebcc985c",
+      "text": "为了什么？人不就是为了创造这样的回忆才来到世界上的吗？",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=814aae08-276e-44e2-8e5a-151bebcc985c",
+      "upstream_id": 9442,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-beb9022b-d318-43b8-a538-86aa34908799",
+      "text": "生命的长度我是拓展不了了，但是我可以试着把它拉宽一点，这样子就能印出彩虹了。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=beb9022b-d318-43b8-a538-86aa34908799",
+      "upstream_id": 3690,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-a52fc909-6269-4da7-af9e-30a4ab8d2d23",
+      "text": "都结束了，又开始了。",
+      "source": "有感",
+      "source_url": "https://hitokoto.cn/?uuid=a52fc909-6269-4da7-af9e-30a4ab8d2d23",
+      "upstream_id": 10341,
+      "upstream_category": "e",
+      "author": "茉莉雨"
+    },
+    {
+      "id": "hitokoto-20a34e07-a318-4212-826e-403566e01dda",
+      "text": "星空虽然遥远，但却是最美的景色之一，因为它代表了无数人的梦想和希望。",
+      "source": "彩云小梦",
+      "source_url": "https://hitokoto.cn/?uuid=20a34e07-a318-4212-826e-403566e01dda",
+      "upstream_id": 8930,
+      "upstream_category": "e",
+      "author": "小梦0号"
+    },
+    {
+      "id": "hitokoto-20353911-a0d0-4b62-83df-462b1cfbcdcf",
+      "text": "扬帆起航，于舟渡之。",
+      "source": "小世",
+      "source_url": "https://hitokoto.cn/?uuid=20353911-a0d0-4b62-83df-462b1cfbcdcf",
+      "upstream_id": 6189,
+      "upstream_category": "e",
+      "author": "朴素"
+    },
+    {
+      "id": "hitokoto-1ca4fff6-d44a-454a-bb3a-e29ce2bfb5fd",
+      "text": "夏天的太阳，总是给人火辣的感觉，冬天的太阳，却给人暖暖的感觉，所以，需要在适合的时候，做适合的事情。",
+      "source": "凉都小道",
+      "source_url": "https://hitokoto.cn/?uuid=1ca4fff6-d44a-454a-bb3a-e29ce2bfb5fd",
+      "upstream_id": 8649,
+      "upstream_category": "e",
+      "author": "凉都小道"
+    },
+    {
+      "id": "hitokoto-c1e14e0a-254d-4c92-880c-d00cc55fac8a",
+      "text": "被拉成长条的影子下，孩子们哼着回家的歌谣。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=c1e14e0a-254d-4c92-880c-d00cc55fac8a",
+      "upstream_id": 9430,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-7544a370-042a-4bfc-9a76-98df8fdae0bf",
+      "text": "停车坐爱枫林晚，霜叶红于二月花。",
+      "source": "山行",
+      "source_url": "https://hitokoto.cn/?uuid=7544a370-042a-4bfc-9a76-98df8fdae0bf",
+      "upstream_id": 5856,
+      "upstream_category": "i",
+      "author": "杜牧"
+    },
+    {
+      "id": "hitokoto-c06f643e-d247-4e1e-9422-e9a0b62da3d3",
+      "text": "云无心以出岫，鸟倦飞而知还。",
+      "source": "归去来兮辞",
+      "source_url": "https://hitokoto.cn/?uuid=c06f643e-d247-4e1e-9422-e9a0b62da3d3",
+      "upstream_id": 11737,
+      "upstream_category": "i",
+      "author": "陶渊明"
+    },
+    {
+      "id": "hitokoto-0e556eb8-ba17-4a03-98fc-88a011b77ff9",
+      "text": "我的星星在眼底，赋予了天空温柔的光。",
+      "source": "奕之",
+      "source_url": "https://hitokoto.cn/?uuid=0e556eb8-ba17-4a03-98fc-88a011b77ff9",
+      "upstream_id": 8836,
+      "upstream_category": "e",
+      "author": "奕之"
+    },
+    {
+      "id": "hitokoto-15c0eff6-5da8-4893-9ba0-1892bd0e9d32",
+      "text": "我们都在努力的活着",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=15c0eff6-5da8-4893-9ba0-1892bd0e9d32",
+      "upstream_id": 5046,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-c37788c4-2105-444b-91f6-10514ed729d2",
+      "text": "夕阳柔和地洒向海岸线，潮水涨落，我躺在没有尽头的沙滩上，做着关于现实的梦。",
+      "source": "花间拾梦",
+      "source_url": "https://hitokoto.cn/?uuid=c37788c4-2105-444b-91f6-10514ed729d2",
+      "upstream_id": 9425,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-92278cb0-3263-4c99-9cf7-543d644c58c1",
+      "text": "风吹一阵，雨落几场，草芽丛生，绿野芬芳。",
+      "source": "雨落凋殇",
+      "source_url": "https://hitokoto.cn/?uuid=92278cb0-3263-4c99-9cf7-543d644c58c1",
+      "upstream_id": 10819,
+      "upstream_category": "e",
+      "author": "雨落凋殇"
+    },
+    {
+      "id": "hitokoto-bc2d02aa-3271-4480-83bf-17c2326b44f3",
+      "text": "学习知识是为了提出更好的问题。",
+      "source": "帆仔",
+      "source_url": "https://hitokoto.cn/?uuid=bc2d02aa-3271-4480-83bf-17c2326b44f3",
+      "upstream_id": 8690,
+      "upstream_category": "e",
+      "author": "帆仔"
+    },
+    {
+      "id": "hitokoto-c3b742c3-f1e4-48e9-b4cc-00489646fda2",
+      "text": "就在自己的小世界里，做一个快乐的小神仙。",
+      "source": "祺•遇",
+      "source_url": "https://hitokoto.cn/?uuid=c3b742c3-f1e4-48e9-b4cc-00489646fda2",
+      "upstream_id": 8821,
+      "upstream_category": "e",
+      "author": "菲.lin"
+    },
+    {
+      "id": "hitokoto-1c0a0b54-d1fc-4087-b2b7-8e0ea5a33c07",
+      "text": "桃李不言，下自成蹊。",
+      "source": "史记·李将军列传",
+      "source_url": "https://hitokoto.cn/?uuid=1c0a0b54-d1fc-4087-b2b7-8e0ea5a33c07",
+      "upstream_id": 5762,
+      "upstream_category": "i",
+      "author": "司马迁"
+    },
+    {
+      "id": "hitokoto-b4186e05-78ea-4e6f-bfaa-8c7d091c069f",
+      "text": "如果累，那就停下来，想一想，你在做什么……",
+      "source": "一颗忙乱的大脑",
+      "source_url": "https://hitokoto.cn/?uuid=b4186e05-78ea-4e6f-bfaa-8c7d091c069f",
+      "upstream_id": 6168,
+      "upstream_category": "e",
+      "author": "ideng"
+    },
+    {
+      "id": "hitokoto-a62f7655-39f6-4b4f-b292-4982d4d01c38",
+      "text": "平安喜乐，万事胜意。",
+      "source": "张喜乐",
+      "source_url": "https://hitokoto.cn/?uuid=a62f7655-39f6-4b4f-b292-4982d4d01c38",
+      "upstream_id": 6238,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-cdb6ff4a-cc4a-4de3-a933-d27e5b2ed930",
+      "text": "晚来天欲雪，能饮一杯无。",
+      "source": "问刘十九",
+      "source_url": "https://hitokoto.cn/?uuid=cdb6ff4a-cc4a-4de3-a933-d27e5b2ed930",
+      "upstream_id": 5561,
+      "upstream_category": "i",
+      "author": "白居易"
+    },
+    {
+      "id": "hitokoto-cb5f9471-155c-4324-928a-0b4ef9e2b038",
+      "text": "造物无言却有情，每于寒尽觉春生。",
+      "source": "新雷",
+      "source_url": "https://hitokoto.cn/?uuid=cb5f9471-155c-4324-928a-0b4ef9e2b038",
+      "upstream_id": 5750,
+      "upstream_category": "i",
+      "author": "张维屏"
+    },
+    {
+      "id": "hitokoto-03e5936d-6d26-4394-9bcd-52de5a557c5d",
+      "text": "要是心情郁闷的时候，用手托腮就好，手臂会因为帮上忙而开心的。",
+      "source": "随感",
+      "source_url": "https://hitokoto.cn/?uuid=03e5936d-6d26-4394-9bcd-52de5a557c5d",
+      "upstream_id": 6966,
+      "upstream_category": "e",
+      "author": "Litten"
+    },
+    {
+      "id": "hitokoto-838d7395-543b-46f9-9840-3710a5cf0ef8",
+      "text": "春江潮水连海平，海上明月共潮生。",
+      "source": "春江花月夜",
+      "source_url": "https://hitokoto.cn/?uuid=838d7395-543b-46f9-9840-3710a5cf0ef8",
+      "upstream_id": 5629,
+      "upstream_category": "i",
+      "author": "张若虚"
+    },
+    {
+      "id": "hitokoto-abc2a324-124a-4e57-bede-2a3c24dff40f",
+      "text": "苟有恒，何必三更眠五更起；最无益，只怕一日曝十日寒。",
+      "source": "自勉联",
+      "source_url": "https://hitokoto.cn/?uuid=abc2a324-124a-4e57-bede-2a3c24dff40f",
+      "upstream_id": 10942,
+      "upstream_category": "i",
+      "author": "胡居仁"
+    },
+    {
+      "id": "hitokoto-83bbbc1e-8f9a-444f-a7ad-7b5236fe35f0",
+      "text": "往回首。即使那些不悦的，厌恶的，也化作尘埃，随风而去。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=83bbbc1e-8f9a-444f-a7ad-7b5236fe35f0",
+      "upstream_id": 6083,
+      "upstream_category": "e",
+      "author": "GoodChing"
+    },
+    {
+      "id": "hitokoto-c719a94e-fc3b-4ab5-8f33-462f3f8d5ce5",
+      "text": "那片粉色的天空下，是小城一隅的麦田，在夕阳的怀抱中闪耀着金灿灿的光芒。",
+      "source": "花间拾梦",
+      "source_url": "https://hitokoto.cn/?uuid=c719a94e-fc3b-4ab5-8f33-462f3f8d5ce5",
+      "upstream_id": 9439,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-89f74fae-a3cd-46a5-895f-1c2c8393aefe",
+      "text": "愿你走过一场青春，还留有三分纯真。",
+      "source": "网络",
+      "source_url": "https://hitokoto.cn/?uuid=89f74fae-a3cd-46a5-895f-1c2c8393aefe",
+      "upstream_id": 4791,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-d2a1be4f-2d93-44f6-a477-33e6757af616",
+      "text": "日啖荔枝三百颗，不辞长作岭南人。",
+      "source": "惠州一绝",
+      "source_url": "https://hitokoto.cn/?uuid=d2a1be4f-2d93-44f6-a477-33e6757af616",
+      "upstream_id": 5812,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-c96a0d32-ac23-4cb7-95c7-6abb2f892a01",
+      "text": "春水碧于天，画船听雨眠。",
+      "source": "菩萨蛮·人人尽说江南好",
+      "source_url": "https://hitokoto.cn/?uuid=c96a0d32-ac23-4cb7-95c7-6abb2f892a01",
+      "upstream_id": 5685,
+      "upstream_category": "i",
+      "author": "韦庄"
+    },
+    {
+      "id": "hitokoto-3ed86f37-3ada-4377-af95-e3c5630d7ebd",
+      "text": "每天都是绝版。",
+      "source": "无",
+      "source_url": "https://hitokoto.cn/?uuid=3ed86f37-3ada-4377-af95-e3c5630d7ebd",
+      "upstream_id": 8881,
+      "upstream_category": "e",
+      "author": "鱼"
+    },
+    {
+      "id": "hitokoto-47dc65e8-8564-4651-bb49-54af62a4e35b",
+      "text": "安静下来，自然就能看到平淡生活中透出的那星星点点的亮光，那便是我们活着的原因。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=47dc65e8-8564-4651-bb49-54af62a4e35b",
+      "upstream_id": 9426,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-f4f448b2-d3d0-4186-950d-52fa8800808a",
+      "text": "海内存知己，天涯若比邻。",
+      "source": "杜少府之任蜀州",
+      "source_url": "https://hitokoto.cn/?uuid=f4f448b2-d3d0-4186-950d-52fa8800808a",
+      "upstream_id": 5356,
+      "upstream_category": "i",
+      "author": "王勃"
+    },
+    {
+      "id": "hitokoto-97ef46eb-cc0b-4ac6-a58e-5f345d13e31f",
+      "text": "纵天下几变春秋，我依旧还是我。",
+      "source": "crazy",
+      "source_url": "https://hitokoto.cn/?uuid=97ef46eb-cc0b-4ac6-a58e-5f345d13e31f",
+      "upstream_id": 6307,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-e3995cbb-e55e-49f3-8f91-777159ea1704",
+      "text": "快乐，至少比富裕要好。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=e3995cbb-e55e-49f3-8f91-777159ea1704",
+      "upstream_id": 4539,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-2d651615-6164-4f20-beaf-29bcc8803685",
+      "text": "青青园中葵，朝露待日晞。",
+      "source": "长歌行",
+      "source_url": "https://hitokoto.cn/?uuid=2d651615-6164-4f20-beaf-29bcc8803685",
+      "upstream_id": 5888,
+      "upstream_category": "i",
+      "author": "佚名"
+    },
+    {
+      "id": "hitokoto-3ed1e7a0-f0e6-4223-ad65-3666bc256855",
+      "text": "江南无所有，聊赠一枝春。",
+      "source": "赠范晔诗",
+      "source_url": "https://hitokoto.cn/?uuid=3ed1e7a0-f0e6-4223-ad65-3666bc256855",
+      "upstream_id": 5599,
+      "upstream_category": "i",
+      "author": "陆凯"
+    },
+    {
+      "id": "hitokoto-1385da03-b16a-42fc-9389-c169f1369af7",
+      "text": "山海若不见，自去见山海。",
+      "source": "-",
+      "source_url": "https://hitokoto.cn/?uuid=1385da03-b16a-42fc-9389-c169f1369af7",
+      "upstream_id": 10993,
+      "upstream_category": "e",
+      "author": "comma"
+    },
+    {
+      "id": "hitokoto-41d21f63-6bfe-414b-9de4-c96bca493c49",
+      "text": "不要想，去感受。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=41d21f63-6bfe-414b-9de4-c96bca493c49",
+      "upstream_id": 6152,
+      "upstream_category": "e",
+      "author": "边妤仙"
+    },
+    {
+      "id": "hitokoto-a720b01c-e71c-4332-b51d-deb1f511fd02",
+      "text": "做最最真实的自己，无需隐藏，我是什么样子就是什么样子。",
+      "source": "π",
+      "source_url": "https://hitokoto.cn/?uuid=a720b01c-e71c-4332-b51d-deb1f511fd02",
+      "upstream_id": 10737,
+      "upstream_category": "e",
+      "author": "刘璐瑶"
+    },
+    {
+      "id": "hitokoto-982cb74f-d57b-4993-9577-c427ba186bfa",
+      "text": "山随平野尽，江入大荒流。",
+      "source": "渡荆门送别",
+      "source_url": "https://hitokoto.cn/?uuid=982cb74f-d57b-4993-9577-c427ba186bfa",
+      "upstream_id": 5924,
+      "upstream_category": "i",
+      "author": "李白"
+    },
+    {
+      "id": "hitokoto-d528c25f-f786-4148-a7ce-e0538fd0c553",
+      "text": "矮纸斜行闲作草，晴窗细乳戏分茶。",
+      "source": "临安春雨初霁",
+      "source_url": "https://hitokoto.cn/?uuid=d528c25f-f786-4148-a7ce-e0538fd0c553",
+      "upstream_id": 9878,
+      "upstream_category": "i",
+      "author": "陆游"
+    },
+    {
+      "id": "hitokoto-d9fac676-df5a-4bad-afac-665aa2a82408",
+      "text": "但行好事，莫问前程。",
+      "source": "增广贤文",
+      "source_url": "https://hitokoto.cn/?uuid=d9fac676-df5a-4bad-afac-665aa2a82408",
+      "upstream_id": 6355,
+      "upstream_category": "i",
+      "author": "佚名"
+    },
+    {
+      "id": "hitokoto-631ece27-ca9e-4f43-9672-83066fa9d43b",
+      "text": "以前我以为，游戏要的高配置是硬件，现在我发现，高配置是一群同样热爱游戏的小伙伴。",
+      "source": "孤影墨香",
+      "source_url": "https://hitokoto.cn/?uuid=631ece27-ca9e-4f43-9672-83066fa9d43b",
+      "upstream_id": 8308,
+      "upstream_category": "e",
+      "author": "小小柳之絮"
+    },
+    {
+      "id": "hitokoto-9d14309e-0cbc-4a91-aac6-e2df782aa091",
+      "text": "愿好好奔赴人生的同时，也要活的开心。",
+      "source": "祺·遇",
+      "source_url": "https://hitokoto.cn/?uuid=9d14309e-0cbc-4a91-aac6-e2df782aa091",
+      "upstream_id": 7828,
+      "upstream_category": "e",
+      "author": "菲.lin"
+    },
+    {
+      "id": "hitokoto-0132e873-f765-43df-b9e9-8865c032c8ba",
+      "text": "我见青山多妩媚，料青山见我应如是。",
+      "source": "贺新郎·甚矣吾衰矣",
+      "source_url": "https://hitokoto.cn/?uuid=0132e873-f765-43df-b9e9-8865c032c8ba",
+      "upstream_id": 5572,
+      "upstream_category": "i",
+      "author": "辛弃疾"
+    },
+    {
+      "id": "hitokoto-642db1fc-4dc8-4303-b762-563d5a061cf6",
+      "text": "绿杨烟外晓寒轻，红杏枝头春意闹。",
+      "source": "玉楼春·春景",
+      "source_url": "https://hitokoto.cn/?uuid=642db1fc-4dc8-4303-b762-563d5a061cf6",
+      "upstream_id": 5697,
+      "upstream_category": "i",
+      "author": "宋祁"
+    },
+    {
+      "id": "hitokoto-c2c65803-4157-45b1-bf0f-23e80e6af7f1",
+      "text": "路，在不通时，选择拐弯，心，在不快时，选择看淡；情，在渐远时，就选择随意。圈子不同，不必强融。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=c2c65803-4157-45b1-bf0f-23e80e6af7f1",
+      "upstream_id": 3805,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-705cf7a0-5b39-4144-a396-cae1339c2d72",
+      "text": "春有百花秋有月，夏有凉风冬有雪。",
+      "source": "颂古五十五首其一",
+      "source_url": "https://hitokoto.cn/?uuid=705cf7a0-5b39-4144-a396-cae1339c2d72",
+      "upstream_id": 6741,
+      "upstream_category": "i",
+      "author": "释绍昙"
+    },
+    {
+      "id": "hitokoto-be2b6dff-d0c7-452c-bce0-feae5eb029cd",
+      "text": "我自己的思考，都是起源于问题。而追寻问题的方法，总是起源于确信。",
+      "source": "思考",
+      "source_url": "https://hitokoto.cn/?uuid=be2b6dff-d0c7-452c-bce0-feae5eb029cd",
+      "upstream_id": 6526,
+      "upstream_category": "e",
+      "author": "GrayDeprave"
+    },
+    {
+      "id": "hitokoto-c29f8fe1-d12a-4e0a-8c84-18644db6c2c9",
+      "text": "给自己画条线，给他人也画条线。",
+      "source": "三分钟",
+      "source_url": "https://hitokoto.cn/?uuid=c29f8fe1-d12a-4e0a-8c84-18644db6c2c9",
+      "upstream_id": 10997,
+      "upstream_category": "e",
+      "author": "三分钟"
+    },
+    {
+      "id": "hitokoto-5213611b-f34c-434d-9c3b-20dc11ceae76",
+      "text": "春赏百花秋望月，夏沐凉风冬听雪。",
+      "source": "《无门关》第十九则",
+      "source_url": "https://hitokoto.cn/?uuid=5213611b-f34c-434d-9c3b-20dc11ceae76",
+      "upstream_id": 7450,
+      "upstream_category": "i",
+      "author": "黄龙慧开禅师"
+    },
+    {
+      "id": "hitokoto-4ec1e9df-6baa-4a7d-908c-4e217d0bc15d",
+      "text": "迟日江山丽，春风花草香。",
+      "source": "绝句二首",
+      "source_url": "https://hitokoto.cn/?uuid=4ec1e9df-6baa-4a7d-908c-4e217d0bc15d",
+      "upstream_id": 5738,
+      "upstream_category": "i",
+      "author": "杜甫"
+    },
+    {
+      "id": "hitokoto-f7b0dd64-6cc1-42d2-bb4e-a9636fd45a63",
+      "text": "风乍起，吹皱一池春水。",
+      "source": "谒金门·风乍起",
+      "source_url": "https://hitokoto.cn/?uuid=f7b0dd64-6cc1-42d2-bb4e-a9636fd45a63",
+      "upstream_id": 5751,
+      "upstream_category": "i",
+      "author": "冯延巳"
+    },
+    {
+      "id": "hitokoto-bbe6102c-af5b-4e32-99a8-fd3777b24ce9",
+      "text": "我愿将歌化作风，聆听朗朗的春声。",
+      "source": "村花上树",
+      "source_url": "https://hitokoto.cn/?uuid=bbe6102c-af5b-4e32-99a8-fd3777b24ce9",
+      "upstream_id": 4306,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-e0e41cd5-48dd-4257-86ac-707d26e02382",
+      "text": "小楼一夜听春雨，深巷明朝卖杏花。",
+      "source": "临安春雨初霁",
+      "source_url": "https://hitokoto.cn/?uuid=e0e41cd5-48dd-4257-86ac-707d26e02382",
+      "upstream_id": 5514,
+      "upstream_category": "i",
+      "author": "陆游"
+    },
+    {
+      "id": "hitokoto-7c8901c7-77bb-47aa-af4a-6626344a46c4",
+      "text": "水遇断崖无处走，垂下成瀑。",
+      "source": "源初幻想",
+      "source_url": "https://hitokoto.cn/?uuid=7c8901c7-77bb-47aa-af4a-6626344a46c4",
+      "upstream_id": 8364,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-cf2b148b-d4d7-4497-8a98-9e281bbff5eb",
+      "text": "我可能不是那种慷慨激昂的性格，但我内心有我自己的小世界，你们都在我的世界里。",
+      "source": "eliwa",
+      "source_url": "https://hitokoto.cn/?uuid=cf2b148b-d4d7-4497-8a98-9e281bbff5eb",
+      "upstream_id": 8772,
+      "upstream_category": "e",
+      "author": "eliwa"
+    },
+    {
+      "id": "hitokoto-9ad912fe-407f-43e6-9a06-2240029d16a3",
+      "text": "有些故事没有结尾，可沿途的风景依旧很美。",
+      "source": "佚名",
+      "source_url": "https://hitokoto.cn/?uuid=9ad912fe-407f-43e6-9a06-2240029d16a3",
+      "upstream_id": 9117,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-b4bf82c4-578d-4f39-a030-21c041a19bcd",
+      "text": "相看两不厌，只有敬亭山。",
+      "source": "独坐敬亭山",
+      "source_url": "https://hitokoto.cn/?uuid=b4bf82c4-578d-4f39-a030-21c041a19bcd",
+      "upstream_id": 5875,
+      "upstream_category": "i",
+      "author": "李白"
+    },
+    {
+      "id": "hitokoto-dc4bbf94-7bf8-471d-a699-881641124eaf",
+      "text": "江山代有才人出，各领风骚数百年。",
+      "source": "论诗五首·其二",
+      "source_url": "https://hitokoto.cn/?uuid=dc4bbf94-7bf8-471d-a699-881641124eaf",
+      "upstream_id": 5795,
+      "upstream_category": "i",
+      "author": "赵翼"
+    },
+    {
+      "id": "hitokoto-62524288-33b8-42eb-9b7f-4ace2c9bee7c",
+      "text": "何须浅碧深红色，自是花中第一流。",
+      "source": "鹧鸪天·桂花",
+      "source_url": "https://hitokoto.cn/?uuid=62524288-33b8-42eb-9b7f-4ace2c9bee7c",
+      "upstream_id": 5862,
+      "upstream_category": "i",
+      "author": "李清照"
+    },
+    {
+      "id": "hitokoto-7408b604-8bd6-4b4a-9f1b-982449ad8567",
+      "text": "春色满园关不住，一枝红杏出墙来。",
+      "source": "游园不值",
+      "source_url": "https://hitokoto.cn/?uuid=7408b604-8bd6-4b4a-9f1b-982449ad8567",
+      "upstream_id": 5946,
+      "upstream_category": "i",
+      "author": "叶绍翁"
+    },
+    {
+      "id": "hitokoto-d0394f62-1f35-453f-b47c-4a5d8b77a717",
+      "text": "少无适俗韵，性本爱丘山。",
+      "source": "归园田居·其一",
+      "source_url": "https://hitokoto.cn/?uuid=d0394f62-1f35-453f-b47c-4a5d8b77a717",
+      "upstream_id": 5838,
+      "upstream_category": "i",
+      "author": "陶渊明"
+    },
+    {
+      "id": "hitokoto-bf536ef9-f7a4-4eb7-aecb-f76bb53951d8",
+      "text": "天会晴，雨会停。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=bf536ef9-f7a4-4eb7-aecb-f76bb53951d8",
+      "upstream_id": 6540,
+      "upstream_category": "e",
+      "author": "初见"
+    },
+    {
+      "id": "hitokoto-72e336df-c582-4ca4-8e99-104d9e5e3995",
+      "text": "我们没办法用未来的角度来审视现在，但站在现在的时间点我们依然可以展望未来",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=72e336df-c582-4ca4-8e99-104d9e5e3995",
+      "upstream_id": 7659,
+      "upstream_category": "e",
+      "author": "Rene"
+    },
+    {
+      "id": "hitokoto-9faaf92c-ed63-4426-9774-dbc5c0bc0801",
+      "text": "乱花渐欲迷人眼，浅草才能没马蹄。",
+      "source": "钱塘湖春行",
+      "source_url": "https://hitokoto.cn/?uuid=9faaf92c-ed63-4426-9774-dbc5c0bc0801",
+      "upstream_id": 5801,
+      "upstream_category": "i",
+      "author": "白居易"
+    },
+    {
+      "id": "hitokoto-215e7bfa-9c40-4c9f-a677-2dff199bd118",
+      "text": "现在是平面的，过去是立体的。而时间是光，将记忆中自己的影子投射到现在。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=215e7bfa-9c40-4c9f-a677-2dff199bd118",
+      "upstream_id": 10862,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-6864dfdc-16ae-4aab-8817-9c9813523d3c",
+      "text": "生命的意义在于生命本身。",
+      "source": "理馨文语",
+      "source_url": "https://hitokoto.cn/?uuid=6864dfdc-16ae-4aab-8817-9c9813523d3c",
+      "upstream_id": 11260,
+      "upstream_category": "e",
+      "author": "Cindy_Li"
+    },
+    {
+      "id": "hitokoto-1f5a54f6-4337-4d65-bb56-fea48de3f93c",
+      "text": "我喜欢热闹，但并不拒绝孤独。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=1f5a54f6-4337-4d65-bb56-fea48de3f93c",
+      "upstream_id": 5316,
+      "upstream_category": "e",
+      "author": "莽红尘觅知嘤"
+    },
+    {
+      "id": "hitokoto-9841f15e-7bfb-45e9-8ca7-e00a7ac2cd49",
+      "text": "青山一道同云雨，明月何曾是两乡。",
+      "source": "送柴御史",
+      "source_url": "https://hitokoto.cn/?uuid=9841f15e-7bfb-45e9-8ca7-e00a7ac2cd49",
+      "upstream_id": 8962,
+      "upstream_category": "i",
+      "author": "王昌龄"
+    },
+    {
+      "id": "hitokoto-9aba379d-4c4b-4805-b7e6-9ce899778065",
+      "text": "不过一介凡人，何必与世纷争。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=9aba379d-4c4b-4805-b7e6-9ce899778065",
+      "upstream_id": 4437,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-414351a1-e71f-470c-9934-db7fe1ce5ce8",
+      "text": "有三秋桂子，十里荷花。",
+      "source": "望海潮·东南形胜",
+      "source_url": "https://hitokoto.cn/?uuid=414351a1-e71f-470c-9934-db7fe1ce5ce8",
+      "upstream_id": 5872,
+      "upstream_category": "i",
+      "author": "柳永"
+    },
+    {
+      "id": "hitokoto-cd34fbb3-be49-4f75-afc8-ea513a59d0a1",
+      "text": "儿童散学归来早，忙趁东风放纸鸢。",
+      "source": "村居",
+      "source_url": "https://hitokoto.cn/?uuid=cd34fbb3-be49-4f75-afc8-ea513a59d0a1",
+      "upstream_id": 5941,
+      "upstream_category": "i",
+      "author": "高鼎"
+    },
+    {
+      "id": "hitokoto-9340b946-3b69-47e5-8ac6-14a72ecd4464",
+      "text": "天接云涛连晓雾，星河欲转千帆舞。",
+      "source": "渔家傲",
+      "source_url": "https://hitokoto.cn/?uuid=9340b946-3b69-47e5-8ac6-14a72ecd4464",
+      "upstream_id": 10441,
+      "upstream_category": "i",
+      "author": "李清照"
+    },
+    {
+      "id": "hitokoto-ec81a064-6bb6-4643-8f4d-0a225040c4e4",
+      "text": "青木披山岚，绿漪漾水河。",
+      "source": "源初幻想",
+      "source_url": "https://hitokoto.cn/?uuid=ec81a064-6bb6-4643-8f4d-0a225040c4e4",
+      "upstream_id": 8571,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-1eef659b-3a69-454b-930f-6823d1b290ef",
+      "text": "我们，在路上，勿忘初心。找寻最初的梦想和微弱的希望。",
+      "source": "根号菌SAMA",
+      "source_url": "https://hitokoto.cn/?uuid=1eef659b-3a69-454b-930f-6823d1b290ef",
+      "upstream_id": 1155,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-830b7fb7-49f8-4bda-b061-379223677d54",
+      "text": "光，火交错，诞生了夕阳。",
+      "source": "无",
+      "source_url": "https://hitokoto.cn/?uuid=830b7fb7-49f8-4bda-b061-379223677d54",
+      "upstream_id": 5226,
+      "upstream_category": "e",
+      "author": "GoodChing"
+    },
+    {
+      "id": "hitokoto-f2c8ecf8-7dcd-4895-929a-8d35f884c111",
+      "text": "我路过街角的杂货铺，想买一筐六块钱的阳光。",
+      "source": "寻",
+      "source_url": "https://hitokoto.cn/?uuid=f2c8ecf8-7dcd-4895-929a-8d35f884c111",
+      "upstream_id": 9719,
+      "upstream_category": "e",
+      "author": "孤帆"
+    },
+    {
+      "id": "hitokoto-fb18a153-411c-4b02-b1c4-5d735e48ee7d",
+      "text": "人生，自在意，得其乐。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=fb18a153-411c-4b02-b1c4-5d735e48ee7d",
+      "upstream_id": 6010,
+      "upstream_category": "e",
+      "author": "陈树凤"
+    },
+    {
+      "id": "hitokoto-51c06627-d1a7-4816-8226-e2e8a142825f",
+      "text": "自能成羽翼，何须仰云梯。",
+      "source": "观内怀仙",
+      "source_url": "https://hitokoto.cn/?uuid=51c06627-d1a7-4816-8226-e2e8a142825f",
+      "upstream_id": 9552,
+      "upstream_category": "i",
+      "author": "王勃"
+    },
+    {
+      "id": "hitokoto-0558aa2e-8994-48cd-bc7a-7a3a7258cb23",
+      "text": "愿世间万物都会被温柔相待。",
+      "source": "网络",
+      "source_url": "https://hitokoto.cn/?uuid=0558aa2e-8994-48cd-bc7a-7a3a7258cb23",
+      "upstream_id": 9650,
+      "upstream_category": "e",
+      "author": "夜雨天梦"
+    },
+    {
+      "id": "hitokoto-a88a5656-0517-4249-8de4-325262b636b2",
+      "text": "落日的余晖洒落在人间，抹去的是不知道属于谁的忧愁。",
+      "source": "自作",
+      "source_url": "https://hitokoto.cn/?uuid=a88a5656-0517-4249-8de4-325262b636b2",
+      "upstream_id": 9320,
+      "upstream_category": "e",
+      "author": "yzuyuz"
+    },
+    {
+      "id": "hitokoto-29956a65-07dd-42a7-94db-468a5722b198",
+      "text": "请记住，努力不是为了让别人更喜欢你，而是为了让你更喜欢你自己！",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=29956a65-07dd-42a7-94db-468a5722b198",
+      "upstream_id": 4022,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-c665a6ec-86a7-4443-96de-8ab1ead415cc",
+      "text": "雾都伦敦的浪漫，是迷雾之下珍藏的一缕阳光。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=c665a6ec-86a7-4443-96de-8ab1ead415cc",
+      "upstream_id": 5364,
+      "upstream_category": "e",
+      "author": "夙鱼"
+    },
+    {
+      "id": "hitokoto-21a562f8-ee11-42ff-9cec-328dd5eebaed",
+      "text": "松花酿酒，春水煎茶。",
+      "source": "人月圆·山中书事",
+      "source_url": "https://hitokoto.cn/?uuid=21a562f8-ee11-42ff-9cec-328dd5eebaed",
+      "upstream_id": 5660,
+      "upstream_category": "i",
+      "author": "张可久"
+    },
+    {
+      "id": "hitokoto-21b22a64-8154-4996-ba49-bd1efdbdcc8f",
+      "text": "生活原本沉闷，但跑起来就会有风。",
+      "source": "北省",
+      "source_url": "https://hitokoto.cn/?uuid=21b22a64-8154-4996-ba49-bd1efdbdcc8f",
+      "upstream_id": 5040,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-304518a3-260d-406e-9f76-d13ec57edd3a",
+      "text": "浮世之行，寻星之旅。",
+      "source": "随笔",
+      "source_url": "https://hitokoto.cn/?uuid=304518a3-260d-406e-9f76-d13ec57edd3a",
+      "upstream_id": 9537,
+      "upstream_category": "e",
+      "author": "浮世之旅者"
+    },
+    {
+      "id": "hitokoto-195e6da9-b70a-49e7-8071-01712d81774d",
+      "text": "仰望星空，接轨宇宙。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=195e6da9-b70a-49e7-8071-01712d81774d",
+      "upstream_id": 9443,
+      "upstream_category": "e",
+      "author": "CraSice"
+    },
+    {
+      "id": "hitokoto-d717508e-9195-4398-84e4-a100312aabee",
+      "text": "漠漠水田飞白鹭，阴阴夏木啭黄鹂。",
+      "source": "积雨辋川庄作 / 秋归辋川庄作",
+      "source_url": "https://hitokoto.cn/?uuid=d717508e-9195-4398-84e4-a100312aabee",
+      "upstream_id": 5866,
+      "upstream_category": "i",
+      "author": "王维"
+    },
+    {
+      "id": "hitokoto-52ed8376-9db5-424f-8d21-ab89a71cc4ac",
+      "text": "付出就会有收获，这收获不一定就是结果，也可以是经过。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=52ed8376-9db5-424f-8d21-ab89a71cc4ac",
+      "upstream_id": 7514,
+      "upstream_category": "e",
+      "author": "ants"
+    },
+    {
+      "id": "hitokoto-1f161335-016c-4ab5-b2d2-f13e19ca7716",
+      "text": "采菊东篱下，悠然见南山。",
+      "source": "饮酒·其五",
+      "source_url": "https://hitokoto.cn/?uuid=1f161335-016c-4ab5-b2d2-f13e19ca7716",
+      "upstream_id": 5671,
+      "upstream_category": "i",
+      "author": "陶渊明"
+    },
+    {
+      "id": "hitokoto-9932b129-aca5-4c6f-8fcd-21d619850a13",
+      "text": "落子无悔，享受当下。",
+      "source": "HAKKA",
+      "source_url": "https://hitokoto.cn/?uuid=9932b129-aca5-4c6f-8fcd-21d619850a13",
+      "upstream_id": 9934,
+      "upstream_category": "e",
+      "author": "HAKKA"
+    },
+    {
+      "id": "hitokoto-0cca38a2-d9b9-4a6e-9204-77d0273ea942",
+      "text": "既然等不到青城的日落，那就从朝阳开始。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=0cca38a2-d9b9-4a6e-9204-77d0273ea942",
+      "upstream_id": 8557,
+      "upstream_category": "e",
+      "author": "墨上青锋"
+    },
+    {
+      "id": "hitokoto-16e18962-9d36-4028-a168-84914c845f25",
+      "text": "水晶帘动微风起，满架蔷薇一院香。",
+      "source": "山亭夏日",
+      "source_url": "https://hitokoto.cn/?uuid=16e18962-9d36-4028-a168-84914c845f25",
+      "upstream_id": 5701,
+      "upstream_category": "i",
+      "author": "高骈"
+    },
+    {
+      "id": "hitokoto-8c7d28a4-219e-4ac1-98bb-de5c63e1e696",
+      "text": "热爱是引领前进的第一动力。",
+      "source": "杂感",
+      "source_url": "https://hitokoto.cn/?uuid=8c7d28a4-219e-4ac1-98bb-de5c63e1e696",
+      "upstream_id": 9148,
+      "upstream_category": "e",
+      "author": "写bug的代码人"
+    },
+    {
+      "id": "hitokoto-76bc7d55-e434-4b3d-943b-7a03a59efdfd",
+      "text": "绿树阴浓夏日长，楼台倒影入池塘。",
+      "source": "山亭夏日",
+      "source_url": "https://hitokoto.cn/?uuid=76bc7d55-e434-4b3d-943b-7a03a59efdfd",
+      "upstream_id": 5929,
+      "upstream_category": "i",
+      "author": "高骈"
+    },
+    {
+      "id": "hitokoto-df2bfc8e-f72d-47d0-9ac8-07e425e89600",
+      "text": "明月松间照，清泉石上流。",
+      "source": "山居秋暝",
+      "source_url": "https://hitokoto.cn/?uuid=df2bfc8e-f72d-47d0-9ac8-07e425e89600",
+      "upstream_id": 5713,
+      "upstream_category": "i",
+      "author": "王维"
+    },
+    {
+      "id": "hitokoto-58018b10-603b-4b85-a007-4fdfa4e22529",
+      "text": "人间有味是清欢。",
+      "source": "浣溪沙·细雨斜风作晓寒",
+      "source_url": "https://hitokoto.cn/?uuid=58018b10-603b-4b85-a007-4fdfa4e22529",
+      "upstream_id": 5622,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-42cd9ae5-c048-4307-8c46-eb32cd8efaa8",
+      "text": "我欲穿花寻路，直入白云深处，浩气展虹霓。",
+      "source": "水调歌头·游览",
+      "source_url": "https://hitokoto.cn/?uuid=42cd9ae5-c048-4307-8c46-eb32cd8efaa8",
+      "upstream_id": 5640,
+      "upstream_category": "i",
+      "author": "黄庭坚"
+    },
+    {
+      "id": "hitokoto-1a73ea58-1cc6-475b-8aa3-5de021b69eb8",
+      "text": "柳庭风静人眠昼，昼眠人静风庭柳。",
+      "source": "菩萨蛮·回文夏闺怨",
+      "source_url": "https://hitokoto.cn/?uuid=1a73ea58-1cc6-475b-8aa3-5de021b69eb8",
+      "upstream_id": 5719,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-3d4a47cc-c892-4ae2-8a7d-88b87f1eda59",
+      "text": "宇宙有限，思想无限。",
+      "source": "纳兰音韵",
+      "source_url": "https://hitokoto.cn/?uuid=3d4a47cc-c892-4ae2-8a7d-88b87f1eda59",
+      "upstream_id": 8516,
+      "upstream_category": "e",
+      "author": "纳兰音韵"
+    },
+    {
+      "id": "hitokoto-8e58a1a9-a9a4-4c5f-95d6-5a35ad58a293",
+      "text": "风摇竹影有声画，雨打梅花无字诗。",
+      "source": "古联",
+      "source_url": "https://hitokoto.cn/?uuid=8e58a1a9-a9a4-4c5f-95d6-5a35ad58a293",
+      "upstream_id": 10744,
+      "upstream_category": "i",
+      "author": "佚名"
+    },
+    {
+      "id": "hitokoto-80a3bb77-8ff7-4429-b38b-5a1166a7165f",
+      "text": "天生我材必有用，千金散尽还复来。",
+      "source": "将进酒",
+      "source_url": "https://hitokoto.cn/?uuid=80a3bb77-8ff7-4429-b38b-5a1166a7165f",
+      "upstream_id": 5704,
+      "upstream_category": "i",
+      "author": "李白"
+    },
+    {
+      "id": "hitokoto-fc22dc0f-72da-40c7-bbdb-bd0c41e0809c",
+      "text": "什麼都不想的時候應該就是最放鬆的時候，有機會發呆也是一種幸福。",
+      "source": "做魚玉子燒",
+      "source_url": "https://hitokoto.cn/?uuid=fc22dc0f-72da-40c7-bbdb-bd0c41e0809c",
+      "upstream_id": 10454,
+      "upstream_category": "e",
+      "author": "做魚玉子燒"
+    },
+    {
+      "id": "hitokoto-0e2f300e-1371-49f0-aeed-fb52311480ab",
+      "text": "被光所引，为光而行。",
+      "source": "Tianmoy",
+      "source_url": "https://hitokoto.cn/?uuid=0e2f300e-1371-49f0-aeed-fb52311480ab",
+      "upstream_id": 8856,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-5f29e587-39e8-4011-8f41-530908f35fc0",
+      "text": "枕上诗书闲处好，门前风景雨来佳。",
+      "source": "摊破浣溪沙·病起萧萧两鬓华",
+      "source_url": "https://hitokoto.cn/?uuid=5f29e587-39e8-4011-8f41-530908f35fc0",
+      "upstream_id": 5737,
+      "upstream_category": "i",
+      "author": "李清照"
+    },
+    {
+      "id": "hitokoto-6dcf8a6e-bf1c-4f3d-8f91-f34f0abb3cdf",
+      "text": "每一个新生的人都会寄给月亮一份纯真以及自己所有的宁静，以至于刚出生时便躁动不安，每当入夜时便会有一份莫名的平和。",
+      "source": "弘则",
+      "source_url": "https://hitokoto.cn/?uuid=6dcf8a6e-bf1c-4f3d-8f91-f34f0abb3cdf",
+      "upstream_id": 7640,
+      "upstream_category": "e",
+      "author": "弘则"
+    },
+    {
+      "id": "hitokoto-b3065772-c92a-4782-9efd-fd941db743d0",
+      "text": "真正无穷的自由，会包容你所有的思念",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=b3065772-c92a-4782-9efd-fd941db743d0",
+      "upstream_id": 4051,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-15949933-d725-45a8-b3ca-690584389dda",
+      "text": "成长的过程就是人生的意义。",
+      "source": "玖⁠",
+      "source_url": "https://hitokoto.cn/?uuid=15949933-d725-45a8-b3ca-690584389dda",
+      "upstream_id": 8694,
+      "upstream_category": "e",
+      "author": "玖⁠"
+    },
+    {
+      "id": "hitokoto-3d0b3511-42e0-42c7-a077-1362bf89e5b3",
+      "text": "不诱于誉，不恐于诽，率道而行，端然正己。",
+      "source": "非十二子",
+      "source_url": "https://hitokoto.cn/?uuid=3d0b3511-42e0-42c7-a077-1362bf89e5b3",
+      "upstream_id": 11178,
+      "upstream_category": "i",
+      "author": "荀子"
+    },
+    {
+      "id": "hitokoto-76e208ca-c9df-43d5-892d-d3665f48b83c",
+      "text": "我相信所有被我遗忘的美好，一定还在这世上的某个角落，也相信总有一天，走过很长的生命，遇见美好，春暖花开！",
+      "source": "Twitter",
+      "source_url": "https://hitokoto.cn/?uuid=76e208ca-c9df-43d5-892d-d3665f48b83c",
+      "upstream_id": 4643,
+      "upstream_category": "e",
+      "author": "shiraishirin"
+    },
+    {
+      "id": "hitokoto-f2c72e4d-d21b-41c2-b95e-d7c7a108b805",
+      "text": "天平山上白云泉，云自无心水自闲。",
+      "source": "白云泉",
+      "source_url": "https://hitokoto.cn/?uuid=f2c72e4d-d21b-41c2-b95e-d7c7a108b805",
+      "upstream_id": 5843,
+      "upstream_category": "i",
+      "author": "白居易"
+    },
+    {
+      "id": "hitokoto-a80faa05-e166-4da4-a416-979f40806f34",
+      "text": "寒夜客来茶当酒，竹炉汤沸火初红。",
+      "source": "寒夜",
+      "source_url": "https://hitokoto.cn/?uuid=a80faa05-e166-4da4-a416-979f40806f34",
+      "upstream_id": 5943,
+      "upstream_category": "i",
+      "author": "杜耒"
+    },
+    {
+      "id": "hitokoto-04ba0062-0127-49a9-bedd-d7c6d56f3df5",
+      "text": "充满着无尽的能量与自信，向着未来出发",
+      "source": "涓尘",
+      "source_url": "https://hitokoto.cn/?uuid=04ba0062-0127-49a9-bedd-d7c6d56f3df5",
+      "upstream_id": 1352,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-baa241e8-52d6-408d-8743-a5963c3f4dd9",
+      "text": "自由不是脱离现实的逃避，而是在现实中找到内心的平静。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=baa241e8-52d6-408d-8743-a5963c3f4dd9",
+      "upstream_id": 9431,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-68bf6900-4068-418b-938e-5ac40a159fc3",
+      "text": "咬定青山不放松，立根原在破岩中。",
+      "source": "竹石",
+      "source_url": "https://hitokoto.cn/?uuid=68bf6900-4068-418b-938e-5ac40a159fc3",
+      "upstream_id": 5658,
+      "upstream_category": "i",
+      "author": "郑燮"
+    },
+    {
+      "id": "hitokoto-9cea8e7c-2334-4c61-bbc5-716fd5742552",
+      "text": "作为一个学生，总有些什么事情，居于学习之上，却被我们忽略了吧......",
+      "source": "xingyu_xuan",
+      "source_url": "https://hitokoto.cn/?uuid=9cea8e7c-2334-4c61-bbc5-716fd5742552",
+      "upstream_id": 9167,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-6cd5de08-9a3b-4e93-80fc-be8bd772bf9f",
+      "text": "百年长河，不过是你和我，在经历着的一刻。",
+      "source": "你我经历的一刻",
+      "source_url": "https://hitokoto.cn/?uuid=6cd5de08-9a3b-4e93-80fc-be8bd772bf9f",
+      "upstream_id": 11266,
+      "upstream_category": "e",
+      "author": "ZaZaZsu"
+    },
+    {
+      "id": "hitokoto-43bcd15d-1d99-4f42-b111-13775a037e1f",
+      "text": "喜欢寒冬。因为寒冷时，更能感受到被温暖的幸福和美好。",
+      "source": "Sad_slime",
+      "source_url": "https://hitokoto.cn/?uuid=43bcd15d-1d99-4f42-b111-13775a037e1f",
+      "upstream_id": 8082,
+      "upstream_category": "e",
+      "author": "Sad_slime"
+    },
+    {
+      "id": "hitokoto-69c03525-b960-483d-8d50-2ca8334cdfc1",
+      "text": "我们生来平凡，那便做一朵洁白的栀子，经过之处，皆留芬芳。",
+      "source": "心上有朵美丽的花",
+      "source_url": "https://hitokoto.cn/?uuid=69c03525-b960-483d-8d50-2ca8334cdfc1",
+      "upstream_id": 11269,
+      "upstream_category": "e",
+      "author": "Cindy_Li"
+    },
+    {
+      "id": "hitokoto-45ba2314-73d7-4ecc-9769-af1c9aaa7329",
+      "text": "读一本书，看一份风景，品一场兴衰，走一回人生。",
+      "source": "帆仔",
+      "source_url": "https://hitokoto.cn/?uuid=45ba2314-73d7-4ecc-9769-af1c9aaa7329",
+      "upstream_id": 8691,
+      "upstream_category": "e",
+      "author": "帆仔"
+    },
+    {
+      "id": "hitokoto-7ff1e4ae-bf8b-4d65-baad-8f09a2d0b3a6",
+      "text": "太功利了，人生就过得很没意思，永远在追求“更多”的利益，永远不可能得到“最多”的利益。",
+      "source": "随感",
+      "source_url": "https://hitokoto.cn/?uuid=7ff1e4ae-bf8b-4d65-baad-8f09a2d0b3a6",
+      "upstream_id": 11265,
+      "upstream_category": "e",
+      "author": "Cindy_Li"
+    },
+    {
+      "id": "hitokoto-02ebeee4-22be-4d78-a582-c68d9982a5e6",
+      "text": "每天都是新的一天，有好运比什么都强。",
+      "source": "契约千魂",
+      "source_url": "https://hitokoto.cn/?uuid=02ebeee4-22be-4d78-a582-c68d9982a5e6",
+      "upstream_id": 5984,
+      "upstream_category": "e",
+      "author": "契约千魂"
+    },
+    {
+      "id": "hitokoto-8b891301-74fe-4aee-9d80-461ce578eb71",
+      "text": "若觉得生活索然无味，可观察时间的流逝，观察万物的轮回。观察，让人充满活力，让人珍惜现在。",
+      "source": "yuanziyu",
+      "source_url": "https://hitokoto.cn/?uuid=8b891301-74fe-4aee-9d80-461ce578eb71",
+      "upstream_id": 8700,
+      "upstream_category": "e",
+      "author": "yuanziyu"
+    },
+    {
+      "id": "hitokoto-92b75486-84f4-4644-97f4-668b7c173789",
+      "text": "一点浩然气，千里快哉风。",
+      "source": "水调歌头·黄州快哉亭赠张偓佺",
+      "source_url": "https://hitokoto.cn/?uuid=92b75486-84f4-4644-97f4-668b7c173789",
+      "upstream_id": 9981,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-a1899a9a-cf37-4bf9-a25b-0b6ab3f5f2a6",
+      "text": "我只是希望能够超越自己。",
+      "source": "HONTARG",
+      "source_url": "https://hitokoto.cn/?uuid=a1899a9a-cf37-4bf9-a25b-0b6ab3f5f2a6",
+      "upstream_id": 8652,
+      "upstream_category": "e",
+      "author": "HONTARG"
+    },
+    {
+      "id": "hitokoto-2364b5e2-0bc9-4a80-a2e3-98ad375743dc",
+      "text": "愿未来总有星火。",
+      "source": "祺•遇",
+      "source_url": "https://hitokoto.cn/?uuid=2364b5e2-0bc9-4a80-a2e3-98ad375743dc",
+      "upstream_id": 7853,
+      "upstream_category": "e",
+      "author": "菲.lin"
+    },
+    {
+      "id": "hitokoto-1df218b3-1d4b-4eb7-a336-b79aa335ea25",
+      "text": "春风得意马蹄疾，一日看尽长安花。",
+      "source": "登科后",
+      "source_url": "https://hitokoto.cn/?uuid=1df218b3-1d4b-4eb7-a336-b79aa335ea25",
+      "upstream_id": 5457,
+      "upstream_category": "i",
+      "author": "孟郊"
+    },
+    {
+      "id": "hitokoto-8ede34c4-2c7b-4de7-93a9-c2e804915cbc",
+      "text": "等闲识得东风面，万紫千红总是春。",
+      "source": "春日",
+      "source_url": "https://hitokoto.cn/?uuid=8ede34c4-2c7b-4de7-93a9-c2e804915cbc",
+      "upstream_id": 5664,
+      "upstream_category": "i",
+      "author": "朱熹"
+    },
+    {
+      "id": "hitokoto-a221e513-d227-4cd0-a7a7-222ab6268964",
+      "text": "我希望不用赶时间，没有似水流年，一切是那样的平淡，宁静，祥和，致远。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=a221e513-d227-4cd0-a7a7-222ab6268964",
+      "upstream_id": 8356,
+      "upstream_category": "e",
+      "author": "Rene"
+    },
+    {
+      "id": "hitokoto-5a0b4140-36ca-4998-9100-7b26ab6e0988",
+      "text": "远上寒山石径斜，白云深处有人家。",
+      "source": "山行",
+      "source_url": "https://hitokoto.cn/?uuid=5a0b4140-36ca-4998-9100-7b26ab6e0988",
+      "upstream_id": 5945,
+      "upstream_category": "i",
+      "author": "杜牧"
+    },
+    {
+      "id": "hitokoto-c78141b2-0b89-4230-bb90-20c88faf0930",
+      "text": "人会在生活中成长，一边是成熟的模样一边是保持幼稚的模样，难免看上去会有些怪异\r\n",
+      "source": "陌小五",
+      "source_url": "https://hitokoto.cn/?uuid=c78141b2-0b89-4230-bb90-20c88faf0930",
+      "upstream_id": 4786,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-7dea35ca-218a-4478-83e0-b63f030cb4ec",
+      "text": "万般世故难欢乐，一程风景作银河。",
+      "source": "流求议事堂",
+      "source_url": "https://hitokoto.cn/?uuid=7dea35ca-218a-4478-83e0-b63f030cb4ec",
+      "upstream_id": 7103,
+      "upstream_category": "e",
+      "author": "清岷"
+    },
+    {
+      "id": "hitokoto-643355d9-03fc-4bc2-b1e5-604fcb8e832f",
+      "text": "春宵一刻值千金，花有清香月有阴。",
+      "source": "春宵·春宵一刻值千金",
+      "source_url": "https://hitokoto.cn/?uuid=643355d9-03fc-4bc2-b1e5-604fcb8e832f",
+      "upstream_id": 5455,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-772d87da-d1d9-4233-9576-c32e043dcdee",
+      "text": "别错把工具当成目的。",
+      "source": "子公",
+      "source_url": "https://hitokoto.cn/?uuid=772d87da-d1d9-4233-9576-c32e043dcdee",
+      "upstream_id": 7011,
+      "upstream_category": "e",
+      "author": "子公"
+    },
+    {
+      "id": "hitokoto-659a98fa-5dd4-4c9c-840a-0acb285f62ec",
+      "text": "天街小雨润如酥，草色遥看近却无。",
+      "source": "早春呈水部张十八员外 / 初春小雨 / 早春",
+      "source_url": "https://hitokoto.cn/?uuid=659a98fa-5dd4-4c9c-840a-0acb285f62ec",
+      "upstream_id": 5627,
+      "upstream_category": "i",
+      "author": "韩愈"
+    },
+    {
+      "id": "hitokoto-44c15ee6-2dd4-4fc4-8a1e-63d6864f3069",
+      "text": "连雨不知春去，一晴方觉夏深。",
+      "source": "喜晴",
+      "source_url": "https://hitokoto.cn/?uuid=44c15ee6-2dd4-4fc4-8a1e-63d6864f3069",
+      "upstream_id": 5763,
+      "upstream_category": "i",
+      "author": "范成大"
+    },
+    {
+      "id": "hitokoto-a42043a2-03c2-4e1a-8af4-0406c8c118de",
+      "text": "庭前落尽梧桐，水边开彻芙蓉。",
+      "source": "天净沙·秋",
+      "source_url": "https://hitokoto.cn/?uuid=a42043a2-03c2-4e1a-8af4-0406c8c118de",
+      "upstream_id": 5780,
+      "upstream_category": "i",
+      "author": "朱庭玉"
+    },
+    {
+      "id": "hitokoto-45be5a61-87fa-47bb-8fcf-a895db80e534",
+      "text": "祝愿每日会有太阳为你升起，把你当做诗的最后一行。",
+      "source": "黄昏下的乌鸦",
+      "source_url": "https://hitokoto.cn/?uuid=45be5a61-87fa-47bb-8fcf-a895db80e534",
+      "upstream_id": 8416,
+      "upstream_category": "e",
+      "author": "双十"
+    },
+    {
+      "id": "hitokoto-954df3c2-64a9-4754-bfad-3df42eb28c11",
+      "text": "墙角数枝梅，凌寒独自开。",
+      "source": "梅花 / 梅",
+      "source_url": "https://hitokoto.cn/?uuid=954df3c2-64a9-4754-bfad-3df42eb28c11",
+      "upstream_id": 5740,
+      "upstream_category": "i",
+      "author": "王安石"
+    },
+    {
+      "id": "hitokoto-34923454-fdba-4aab-a0e7-a831511c2e9b",
+      "text": "青山相待，白云相爱，梦不到紫罗袍共黄金带。",
+      "source": "山坡羊·道情",
+      "source_url": "https://hitokoto.cn/?uuid=34923454-fdba-4aab-a0e7-a831511c2e9b",
+      "upstream_id": 5920,
+      "upstream_category": "i",
+      "author": "宋方壶"
+    },
+    {
+      "id": "hitokoto-44f98b9b-d209-42d4-9abc-f444677228bf",
+      "text": "不为梦想本身奋斗。为那个提出梦想的自己。",
+      "source": "pokon548",
+      "source_url": "https://hitokoto.cn/?uuid=44f98b9b-d209-42d4-9abc-f444677228bf",
+      "upstream_id": 8322,
+      "upstream_category": "e",
+      "author": "pokon548"
+    },
+    {
+      "id": "hitokoto-a90359d1-167d-4bfe-b9b5-55017ffe804d",
+      "text": "愿将来的你，路无险阻，前途有光，每一个明天都熠熠生辉，充满希望。",
+      "source": "Zeaf",
+      "source_url": "https://hitokoto.cn/?uuid=a90359d1-167d-4bfe-b9b5-55017ffe804d",
+      "upstream_id": 4603,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-89d1a409-0496-4184-b95f-141abb432d82",
+      "text": "当丁达尔效应出现时，光便有了形状。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=89d1a409-0496-4184-b95f-141abb432d82",
+      "upstream_id": 7421,
+      "upstream_category": "e",
+      "author": "未知"
+    },
+    {
+      "id": "hitokoto-a345a606-7d4f-4f59-8a81-eb830cbafdcd",
+      "text": "做一个衣着华服时仍能做自己的人。",
+      "source": "抱月",
+      "source_url": "https://hitokoto.cn/?uuid=a345a606-7d4f-4f59-8a81-eb830cbafdcd",
+      "upstream_id": 8062,
+      "upstream_category": "e",
+      "author": "抱月"
+    },
+    {
+      "id": "hitokoto-c6239fd3-7279-4155-9e9b-323a76393219",
+      "text": "不用羡慕，你也是太阳。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=c6239fd3-7279-4155-9e9b-323a76393219",
+      "upstream_id": 6155,
+      "upstream_category": "e",
+      "author": "边妤仙"
+    },
+    {
+      "id": "hitokoto-4e00c73b-66ad-43a5-bcf3-a038c75739b9",
+      "text": "静，留一份安宁美好；动，绎一部年少轻狂。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=4e00c73b-66ad-43a5-bcf3-a038c75739b9",
+      "upstream_id": 7696,
+      "upstream_category": "e",
+      "author": "一只叫一行的喵"
+    },
+    {
+      "id": "hitokoto-d4b184e9-5b5f-4ed4-8dd4-d0b649b05bac",
+      "text": "余生向阳，往后如意。",
+      "source": "源初幻想",
+      "source_url": "https://hitokoto.cn/?uuid=d4b184e9-5b5f-4ed4-8dd4-d0b649b05bac",
+      "upstream_id": 8572,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-e539fda5-654c-4b25-9de1-c4174ccd8a67",
+      "text": "穿川晓月皎明雾，烟起云涌润一花。",
+      "source": "雾月夜",
+      "source_url": "https://hitokoto.cn/?uuid=e539fda5-654c-4b25-9de1-c4174ccd8a67",
+      "upstream_id": 7447,
+      "upstream_category": "e",
+      "author": "Heriko Deltana"
+    },
+    {
+      "id": "hitokoto-ba485f03-8ebf-493f-b194-d438b307e90a",
+      "text": "千里莺啼绿映红，水村山郭酒旗风。",
+      "source": "江南春",
+      "source_url": "https://hitokoto.cn/?uuid=ba485f03-8ebf-493f-b194-d438b307e90a",
+      "upstream_id": 5898,
+      "upstream_category": "i",
+      "author": "杜牧"
+    },
+    {
+      "id": "hitokoto-35e77dcb-1e9f-4e00-91f9-e7d9bcf2be92",
+      "text": "为文以明心载道，为文以陶冶情操。",
+      "source": "为文之用",
+      "source_url": "https://hitokoto.cn/?uuid=35e77dcb-1e9f-4e00-91f9-e7d9bcf2be92",
+      "upstream_id": 11174,
+      "upstream_category": "e",
+      "author": "碧水凌涛"
+    },
+    {
+      "id": "hitokoto-421766d9-31a0-46c6-a049-55b9069bb55e",
+      "text": "疏影横斜水清浅，暗香浮动月黄昏。",
+      "source": "山园小梅·其一",
+      "source_url": "https://hitokoto.cn/?uuid=421766d9-31a0-46c6-a049-55b9069bb55e",
+      "upstream_id": 5482,
+      "upstream_category": "i",
+      "author": "林逋"
+    },
+    {
+      "id": "hitokoto-769c93c2-b7db-47f8-a39b-df52e37b0f01",
+      "text": "落日拉开黑夜的帷幕，繁星点燃黎明的火光。",
+      "source": "神奇のDzoer",
+      "source_url": "https://hitokoto.cn/?uuid=769c93c2-b7db-47f8-a39b-df52e37b0f01",
+      "upstream_id": 3836,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-08181217-1ad7-412c-b88c-5eb28a65c9e9",
+      "text": "天流浅云，海泛清浪。",
+      "source": "《源初幻想》",
+      "source_url": "https://hitokoto.cn/?uuid=08181217-1ad7-412c-b88c-5eb28a65c9e9",
+      "upstream_id": 7497,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-95b48c62-09f6-4bd7-8637-37dacdc13e83",
+      "text": "羡青山有思，白鹤忘机。",
+      "source": "八声甘州·摘青梅荐酒",
+      "source_url": "https://hitokoto.cn/?uuid=95b48c62-09f6-4bd7-8637-37dacdc13e83",
+      "upstream_id": 5667,
+      "upstream_category": "i",
+      "author": "汤恢"
+    },
+    {
+      "id": "hitokoto-f0eaf8f2-b1dc-4a32-9219-ed9aeddd0d5b",
+      "text": "稻花香里说丰年。听取蛙声一片。",
+      "source": "西江月·夜行黄沙道中",
+      "source_url": "https://hitokoto.cn/?uuid=f0eaf8f2-b1dc-4a32-9219-ed9aeddd0d5b",
+      "upstream_id": 5791,
+      "upstream_category": "i",
+      "author": "辛弃疾"
+    },
+    {
+      "id": "hitokoto-c9ae9fef-a966-4f44-9c0f-1065f864806f",
+      "text": "在有着粉色天空的世界，于河漫滩上立起阳伞，在永不结束的黄昏中欣赏水天一色。",
+      "source": "花间拾梦",
+      "source_url": "https://hitokoto.cn/?uuid=c9ae9fef-a966-4f44-9c0f-1065f864806f",
+      "upstream_id": 10864,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-afc68395-6e1c-429c-b322-f1b7f4d43eba",
+      "text": "嘿！活着是件很好的事",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=afc68395-6e1c-429c-b322-f1b7f4d43eba",
+      "upstream_id": 3931,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-1d037b86-224b-4daa-9df7-d4a2f671e396",
+      "text": "被关心然后关心，关心然后被关心。",
+      "source": "灵感",
+      "source_url": "https://hitokoto.cn/?uuid=1d037b86-224b-4daa-9df7-d4a2f671e396",
+      "upstream_id": 11624,
+      "upstream_category": "e",
+      "author": "auc"
+    },
+    {
+      "id": "hitokoto-9f8244f2-4504-4613-a117-b57c8e290a5f",
+      "text": "尚无凌云志，倒有遨游世界梦。",
+      "source": "本人",
+      "source_url": "https://hitokoto.cn/?uuid=9f8244f2-4504-4613-a117-b57c8e290a5f",
+      "upstream_id": 10650,
+      "upstream_category": "e",
+      "author": "神"
+    },
+    {
+      "id": "hitokoto-95632883-5552-403d-865f-90ffe80b8fb3",
+      "text": "我在文字中遇见新的自己。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=95632883-5552-403d-865f-90ffe80b8fb3",
+      "upstream_id": 9429,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-da2678d5-05bb-413c-85e8-bcfd54b9189a",
+      "text": "多谢梅花，伴我微吟。",
+      "source": "高阳台·除夜",
+      "source_url": "https://hitokoto.cn/?uuid=da2678d5-05bb-413c-85e8-bcfd54b9189a",
+      "upstream_id": 6284,
+      "upstream_category": "i",
+      "author": "韩疁"
+    },
+    {
+      "id": "hitokoto-98ec4a6a-f341-472c-b33b-9963128941ab",
+      "text": "如果可以的话，我也想成为这个世界中特殊的存在。",
+      "source": "随想",
+      "source_url": "https://hitokoto.cn/?uuid=98ec4a6a-f341-472c-b33b-9963128941ab",
+      "upstream_id": 7346,
+      "upstream_category": "e",
+      "author": "”·躲猫猫＿."
+    },
+    {
+      "id": "hitokoto-d3046bbc-ee6b-4397-b3f5-535777e6a25d",
+      "text": "上善若水，水善利万物而不争。",
+      "source": "老子·道经·第八章",
+      "source_url": "https://hitokoto.cn/?uuid=d3046bbc-ee6b-4397-b3f5-535777e6a25d",
+      "upstream_id": 5829,
+      "upstream_category": "i",
+      "author": "李伯阳"
+    },
+    {
+      "id": "hitokoto-8d81788d-3e33-454c-8726-0a9cf55cba9f",
+      "text": "许久未见的朋友，定会在梦里，有一次无需言语的交流。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=8d81788d-3e33-454c-8726-0a9cf55cba9f",
+      "upstream_id": 5369,
+      "upstream_category": "e",
+      "author": "JiujiuYu"
+    },
+    {
+      "id": "hitokoto-3e77587e-5942-4c3f-9fa6-7b6689741ac7",
+      "text": "清风明月无人管，并作南楼一味凉。",
+      "source": "鄂州南楼书事",
+      "source_url": "https://hitokoto.cn/?uuid=3e77587e-5942-4c3f-9fa6-7b6689741ac7",
+      "upstream_id": 5870,
+      "upstream_category": "i",
+      "author": "黄庭坚"
+    },
+    {
+      "id": "hitokoto-f2281a49-7bc0-462e-9d4e-51e96fe5a4b9",
+      "text": "点亮星火，眺望未来。",
+      "source": "点亮星火",
+      "source_url": "https://hitokoto.cn/?uuid=f2281a49-7bc0-462e-9d4e-51e96fe5a4b9",
+      "upstream_id": 7805,
+      "upstream_category": "e",
+      "author": "点亮星火"
+    },
+    {
+      "id": "hitokoto-0ce14fec-570b-440d-b869-c2f875a9fec8",
+      "text": "文明是技术与艺术的结合，理性和浪漫皆为基石。",
+      "source": "理馨文语",
+      "source_url": "https://hitokoto.cn/?uuid=0ce14fec-570b-440d-b869-c2f875a9fec8",
+      "upstream_id": 11267,
+      "upstream_category": "e",
+      "author": "Cindy_Li"
+    },
+    {
+      "id": "hitokoto-d35d9cd2-a128-4378-9d94-a117cf4077fb",
+      "text": "看惯了长夜，仍然要向往天明。",
+      "source": "保底全歪真君",
+      "source_url": "https://hitokoto.cn/?uuid=d35d9cd2-a128-4378-9d94-a117cf4077fb",
+      "upstream_id": 8704,
+      "upstream_category": "e",
+      "author": "保底全歪真君"
+    },
+    {
+      "id": "hitokoto-6ab73e46-f97b-4ca2-afc3-9e93766099f5",
+      "text": "我的生活是彩色的复印机。",
+      "source": "云小闲的童话日记",
+      "source_url": "https://hitokoto.cn/?uuid=6ab73e46-f97b-4ca2-afc3-9e93766099f5",
+      "upstream_id": 10992,
+      "upstream_category": "e",
+      "author": "云小闲的童话日记"
+    },
+    {
+      "id": "hitokoto-0bc177fb-d8d7-483d-a964-513ff38bf904",
+      "text": "沾衣欲湿杏花雨，吹面不寒杨柳风。",
+      "source": "绝句",
+      "source_url": "https://hitokoto.cn/?uuid=0bc177fb-d8d7-483d-a964-513ff38bf904",
+      "upstream_id": 5490,
+      "upstream_category": "i",
+      "author": "志南"
+    },
+    {
+      "id": "hitokoto-10694f2d-5d5d-4965-827b-5c7b861b120f",
+      "text": "唯有时间的流逝，才能证明我们一直在前进。",
+      "source": "写作灵感",
+      "source_url": "https://hitokoto.cn/?uuid=10694f2d-5d5d-4965-827b-5c7b861b120f",
+      "upstream_id": 10181,
+      "upstream_category": "e",
+      "author": "stone"
+    },
+    {
+      "id": "hitokoto-9ee7a47e-bde3-4597-88a8-dc78a1416304",
+      "text": "让我们，爱上生活，体验生命的魅力。",
+      "source": "个人",
+      "source_url": "https://hitokoto.cn/?uuid=9ee7a47e-bde3-4597-88a8-dc78a1416304",
+      "upstream_id": 8375,
+      "upstream_category": "e",
+      "author": "叶小楠"
+    },
+    {
+      "id": "hitokoto-71396790-6d06-49dd-bc72-2568311cdd7b",
+      "text": "粗缯大布裹生涯，腹有诗书气自华。",
+      "source": "和董传留别",
+      "source_url": "https://hitokoto.cn/?uuid=71396790-6d06-49dd-bc72-2568311cdd7b",
+      "upstream_id": 5716,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-1034b495-b7fc-4561-a97b-f7d6b81e4ee0",
+      "text": "青山绿水，白草红叶黄花。",
+      "source": "天净沙·秋",
+      "source_url": "https://hitokoto.cn/?uuid=1034b495-b7fc-4561-a97b-f7d6b81e4ee0",
+      "upstream_id": 5788,
+      "upstream_category": "i",
+      "author": "白朴"
+    },
+    {
+      "id": "hitokoto-61c33865-1896-46f5-90e6-86849bc137eb",
+      "text": "在现实生活中我改变我的生命，在这里我们可以用心创造美好！",
+      "source": "小依",
+      "source_url": "https://hitokoto.cn/?uuid=61c33865-1896-46f5-90e6-86849bc137eb",
+      "upstream_id": 8389,
+      "upstream_category": "e",
+      "author": "小依"
+    },
+    {
+      "id": "hitokoto-ca43a3b5-40b8-44d5-a9f9-d10f53cafd46",
+      "text": "时空把我们阻隔，网络将彼此连接。",
+      "source": "Kelin",
+      "source_url": "https://hitokoto.cn/?uuid=ca43a3b5-40b8-44d5-a9f9-d10f53cafd46",
+      "upstream_id": 11271,
+      "upstream_category": "e",
+      "author": "Kelin"
+    },
+    {
+      "id": "hitokoto-1ed8aae5-3790-4af6-aaf1-4180a5c991c7",
+      "text": "找一片树荫，坐在长椅上听远处吹来的风。",
+      "source": "斜阳下的遐想",
+      "source_url": "https://hitokoto.cn/?uuid=1ed8aae5-3790-4af6-aaf1-4180a5c991c7",
+      "upstream_id": 9427,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-3f035fb0-11c1-498c-b5c9-2e9e4f71e2f9",
+      "text": "我穿梭在万千烟火中，体味世人不曾有的味道。",
+      "source": "个人创作",
+      "source_url": "https://hitokoto.cn/?uuid=3f035fb0-11c1-498c-b5c9-2e9e4f71e2f9",
+      "upstream_id": 10915,
+      "upstream_category": "e",
+      "author": "岁心流年"
+    },
+    {
+      "id": "hitokoto-0c51aaa1-32eb-4611-a199-cea54d75a1f9",
+      "text": "風可以決定樹的方向，而你可以決定自己的方向。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=0c51aaa1-32eb-4611-a199-cea54d75a1f9",
+      "upstream_id": 6058,
+      "upstream_category": "e",
+      "author": "Hasty"
+    },
+    {
+      "id": "hitokoto-390c2989-e8b0-4bed-b0c6-a1913774624c",
+      "text": "不溯往事，不念将来，如此，安好。",
+      "source": "Rene",
+      "source_url": "https://hitokoto.cn/?uuid=390c2989-e8b0-4bed-b0c6-a1913774624c",
+      "upstream_id": 7923,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-4a880aaf-e08d-490e-b5c2-327e69b2a308",
+      "text": "有些看起来很重要的事情，似乎在经历过后也感觉没那么重要了。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=4a880aaf-e08d-490e-b5c2-327e69b2a308",
+      "upstream_id": 9436,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-6f8d1ce9-59cc-44fa-af63-41a6f9591f46",
+      "text": "殷勤昨夜三更雨，又得浮生一日凉。",
+      "source": "鹧鸪天·林断山明竹隐墙",
+      "source_url": "https://hitokoto.cn/?uuid=6f8d1ce9-59cc-44fa-af63-41a6f9591f46",
+      "upstream_id": 5904,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-53d32034-c4b6-4aee-8430-459dd149b530",
+      "text": "我不知这路正确与否，希望它如我所愿。",
+      "source": "前缘·白夜行者",
+      "source_url": "https://hitokoto.cn/?uuid=53d32034-c4b6-4aee-8430-459dd149b530",
+      "upstream_id": 13451,
+      "upstream_category": "e",
+      "author": "碧水凌涛"
+    },
+    {
+      "id": "hitokoto-c2700f8e-8bee-4c75-b49d-9dadeab3fba5",
+      "text": "转回首，依旧前行。",
+      "source": "GoodCing",
+      "source_url": "https://hitokoto.cn/?uuid=c2700f8e-8bee-4c75-b49d-9dadeab3fba5",
+      "upstream_id": 6303,
+      "upstream_category": "e",
+      "author": "GoodCing"
+    },
+    {
+      "id": "hitokoto-ae2ba359-12aa-4dd6-a6fc-d1f770450269",
+      "text": "读书不觉已春深，一寸光阴一寸金。",
+      "source": "白鹿洞二首·其一",
+      "source_url": "https://hitokoto.cn/?uuid=ae2ba359-12aa-4dd6-a6fc-d1f770450269",
+      "upstream_id": 5549,
+      "upstream_category": "i",
+      "author": "王贞白"
+    },
+    {
+      "id": "hitokoto-38008166-0c53-410c-be69-0cf7bb215cab",
+      "text": "直须看尽洛城花，且共春风容易别。",
+      "source": "玉楼春·尊前拟把归期说",
+      "source_url": "https://hitokoto.cn/?uuid=38008166-0c53-410c-be69-0cf7bb215cab",
+      "upstream_id": 9670,
+      "upstream_category": "i",
+      "author": "欧阳修"
+    },
+    {
+      "id": "hitokoto-64878418-24f0-4a66-8381-d03d4a292c2d",
+      "text": "城市用灯光点缀繁华，乡村用星空装饰梦想。",
+      "source": "小狼",
+      "source_url": "https://hitokoto.cn/?uuid=64878418-24f0-4a66-8381-d03d4a292c2d",
+      "upstream_id": 8683,
+      "upstream_category": "e",
+      "author": "小狼"
+    },
+    {
+      "id": "hitokoto-ae9b1c11-33b8-425d-822c-d355bd3761df",
+      "text": "等风来，希望雨别下。",
+      "source": "森木志",
+      "source_url": "https://hitokoto.cn/?uuid=ae9b1c11-33b8-425d-822c-d355bd3761df",
+      "upstream_id": 7107,
+      "upstream_category": "e",
+      "author": "森木志"
+    },
+    {
+      "id": "hitokoto-e24523d3-14bd-454a-ba05-f352e17b04a8",
+      "text": "西塞山前白鹭飞，桃花流水鳜鱼肥。",
+      "source": "渔歌子·西塞山前白鹭飞",
+      "source_url": "https://hitokoto.cn/?uuid=e24523d3-14bd-454a-ba05-f352e17b04a8",
+      "upstream_id": 5786,
+      "upstream_category": "i",
+      "author": "张志和"
+    },
+    {
+      "id": "hitokoto-6c5f5fa9-126a-4d43-b9d0-0a0b1c47c32d",
+      "text": "在繁华中沉淀自我，在乱世中静静伫立，一笔一划，雕刻时光",
+      "source": "Henry_Huang",
+      "source_url": "https://hitokoto.cn/?uuid=6c5f5fa9-126a-4d43-b9d0-0a0b1c47c32d",
+      "upstream_id": 4708,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-d653f024-8ccf-4b75-9f6c-4c9b4cb3ef94",
+      "text": "广阔的水才有蓝色。",
+      "source": "海",
+      "source_url": "https://hitokoto.cn/?uuid=d653f024-8ccf-4b75-9f6c-4c9b4cb3ef94",
+      "upstream_id": 11746,
+      "upstream_category": "e",
+      "author": "洛洛"
+    },
+    {
+      "id": "hitokoto-789fe570-c7cc-4c0c-b280-b6ff80eabe9d",
+      "text": "长夜路漫漫，仍有天亮时。",
+      "source": "自身",
+      "source_url": "https://hitokoto.cn/?uuid=789fe570-c7cc-4c0c-b280-b6ff80eabe9d",
+      "upstream_id": 10246,
+      "upstream_category": "e",
+      "author": "无魂人士"
+    },
+    {
+      "id": "hitokoto-6a7e5713-e9e1-4d0a-abe2-96060918b22f",
+      "text": "忽如一夜春风来，千树万树梨花开。",
+      "source": "白雪歌送武判官归京",
+      "source_url": "https://hitokoto.cn/?uuid=6a7e5713-e9e1-4d0a-abe2-96060918b22f",
+      "upstream_id": 5839,
+      "upstream_category": "i",
+      "author": "岑参"
+    },
+    {
+      "id": "hitokoto-afff27a9-2b32-4579-8239-8477a29f6ed5",
+      "text": "纵横常逸豫，来去总相宜。",
+      "source": "秋夜抒怀",
+      "source_url": "https://hitokoto.cn/?uuid=afff27a9-2b32-4579-8239-8477a29f6ed5",
+      "upstream_id": 13427,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-b874438d-708d-4711-aba6-b839ca06cdbc",
+      "text": "风烟俱净，天山共色。从流飘荡，任意东西。",
+      "source": "与朱元思书",
+      "source_url": "https://hitokoto.cn/?uuid=b874438d-708d-4711-aba6-b839ca06cdbc",
+      "upstream_id": 8087,
+      "upstream_category": "i",
+      "author": "吴均"
+    },
+    {
+      "id": "hitokoto-490212b9-79d4-4721-a745-68f0857021f1",
+      "text": "人生的意义都不同，你需要的是发现属于自己的人生观、价值观。",
+      "source": "Bruce Jc",
+      "source_url": "https://hitokoto.cn/?uuid=490212b9-79d4-4721-a745-68f0857021f1",
+      "upstream_id": 1321,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-6048c489-0aed-4eae-8631-502c580ef1a0",
+      "text": "久在樊笼里，复得返自然。",
+      "source": "归园田居",
+      "source_url": "https://hitokoto.cn/?uuid=6048c489-0aed-4eae-8631-502c580ef1a0",
+      "upstream_id": 10771,
+      "upstream_category": "i",
+      "author": "陶渊明"
+    },
+    {
+      "id": "hitokoto-077761e0-454a-4c9b-91ca-e65996bdd652",
+      "text": "卧看满天云不动，不知云与我俱东。",
+      "source": "襄邑道中",
+      "source_url": "https://hitokoto.cn/?uuid=077761e0-454a-4c9b-91ca-e65996bdd652",
+      "upstream_id": 5925,
+      "upstream_category": "i",
+      "author": "陈与义"
+    },
+    {
+      "id": "hitokoto-190a2d4d-8239-427a-a0b2-e935c49ebf2c",
+      "text": "竹外桃花三两枝，春江水暖鸭先知。",
+      "source": "惠崇春江晚景 / 惠崇春江晓景",
+      "source_url": "https://hitokoto.cn/?uuid=190a2d4d-8239-427a-a0b2-e935c49ebf2c",
+      "upstream_id": 5573,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-c279171a-1dba-44a7-9329-ba1fd3f01635",
+      "text": "清风徐来，我自盛开。",
+      "source": "祺•遇",
+      "source_url": "https://hitokoto.cn/?uuid=c279171a-1dba-44a7-9329-ba1fd3f01635",
+      "upstream_id": 7850,
+      "upstream_category": "e",
+      "author": "菲.lin"
+    },
+    {
+      "id": "hitokoto-1667271c-3eec-43f0-bc72-38d68a2d6c6e",
+      "text": "新竹高于旧竹枝，全凭老干为扶持。",
+      "source": "新竹",
+      "source_url": "https://hitokoto.cn/?uuid=1667271c-3eec-43f0-bc72-38d68a2d6c6e",
+      "upstream_id": 5796,
+      "upstream_category": "i",
+      "author": "郑燮"
+    },
+    {
+      "id": "hitokoto-58873d0c-b7e2-48d9-88c3-bd2c603780e8",
+      "text": "应是天仙狂醉，乱把白云揉碎。",
+      "source": "清平乐·画堂晨起",
+      "source_url": "https://hitokoto.cn/?uuid=58873d0c-b7e2-48d9-88c3-bd2c603780e8",
+      "upstream_id": 9669,
+      "upstream_category": "i",
+      "author": "李白"
+    },
+    {
+      "id": "hitokoto-1eb1f948-0a1b-4d56-80dd-c7a77246f06c",
+      "text": "惟有岩风来，吹我还醒然。",
+      "source": "题滁州醉翁亭",
+      "source_url": "https://hitokoto.cn/?uuid=1eb1f948-0a1b-4d56-80dd-c7a77246f06c",
+      "upstream_id": 9894,
+      "upstream_category": "i",
+      "author": "欧阳修"
+    },
+    {
+      "id": "hitokoto-cd0d1cd3-b3ac-43ba-a491-aab26cfeac09",
+      "text": "诗和远方，不如家乡。",
+      "source": "dreamer",
+      "source_url": "https://hitokoto.cn/?uuid=cd0d1cd3-b3ac-43ba-a491-aab26cfeac09",
+      "upstream_id": 4785,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-32058f78-201a-4c67-9653-adf708ecf66e",
+      "text": "鸾歌无岁月，鹤语记春秋。",
+      "source": "幸白鹿观应制",
+      "source_url": "https://hitokoto.cn/?uuid=32058f78-201a-4c67-9653-adf708ecf66e",
+      "upstream_id": 10609,
+      "upstream_category": "i",
+      "author": "崔湜"
+    },
+    {
+      "id": "hitokoto-6d7ea7bc-4dd6-4119-9099-cb0fbc89a5eb",
+      "text": "知道自己为何而活的人，总会是幸福的。",
+      "source": "漂泊手札",
+      "source_url": "https://hitokoto.cn/?uuid=6d7ea7bc-4dd6-4119-9099-cb0fbc89a5eb",
+      "upstream_id": 9432,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-304e0586-20b0-4f3c-8105-0928a6950456",
+      "text": "人间四月芳菲尽，山寺桃花始盛开。",
+      "source": "大林寺桃花",
+      "source_url": "https://hitokoto.cn/?uuid=304e0586-20b0-4f3c-8105-0928a6950456",
+      "upstream_id": 5532,
+      "upstream_category": "i",
+      "author": "白居易"
+    },
+    {
+      "id": "hitokoto-93abee05-d843-47cd-893a-47f4b22740bf",
+      "text": "春潮带雨晚来急，野渡无人舟自横。",
+      "source": "滁州西涧",
+      "source_url": "https://hitokoto.cn/?uuid=93abee05-d843-47cd-893a-47f4b22740bf",
+      "upstream_id": 5731,
+      "upstream_category": "i",
+      "author": "韦应物"
+    },
+    {
+      "id": "hitokoto-4a256755-fed1-4c82-a230-9fd80b13fc63",
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "游山西村",
+      "source_url": "https://hitokoto.cn/?uuid=4a256755-fed1-4c82-a230-9fd80b13fc63",
+      "upstream_id": 5634,
+      "upstream_category": "i",
+      "author": "陆游"
+    },
+    {
+      "id": "hitokoto-fbf19df5-1c20-496c-9649-e8c5b43a6653",
+      "text": "倚南窗以寄傲，审容膝之易安。园日涉以成趣，门虽设而常关。",
+      "source": "归去来兮辞",
+      "source_url": "https://hitokoto.cn/?uuid=fbf19df5-1c20-496c-9649-e8c5b43a6653",
+      "upstream_id": 7288,
+      "upstream_category": "i",
+      "author": "陶渊明"
+    },
+    {
+      "id": "hitokoto-5d4185c6-4e3f-46be-acaf-046738c100e4",
+      "text": "胜日寻芳泗水滨，无边光景一时新。",
+      "source": "春日",
+      "source_url": "https://hitokoto.cn/?uuid=5d4185c6-4e3f-46be-acaf-046738c100e4",
+      "upstream_id": 5869,
+      "upstream_category": "i",
+      "author": "朱熹"
+    },
+    {
+      "id": "hitokoto-da6a1a37-a541-47ca-97cb-872086841702",
+      "text": "穿破迷雾，探寻真相。",
+      "source": "浮世之旅者",
+      "source_url": "https://hitokoto.cn/?uuid=da6a1a37-a541-47ca-97cb-872086841702",
+      "upstream_id": 9538,
+      "upstream_category": "e",
+      "author": "浮世之旅者"
+    },
+    {
+      "id": "hitokoto-ef10b8d1-a0fe-4df5-98f2-b8ff2add818d",
+      "text": "静静地目送，享受这一刻，在混乱之中。",
+      "source": "xingyu_xuan",
+      "source_url": "https://hitokoto.cn/?uuid=ef10b8d1-a0fe-4df5-98f2-b8ff2add818d",
+      "upstream_id": 9174,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-08c0095f-7c05-496b-8ec8-76ce2db61660",
+      "text": "请别怕黑暗，你自带光环！",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=08c0095f-7c05-496b-8ec8-76ce2db61660",
+      "upstream_id": 7230,
+      "upstream_category": "e",
+      "author": "Mi"
+    },
+    {
+      "id": "hitokoto-00755496-84ee-4f91-85cb-cf2cf241f89e",
+      "text": "我们追逐浪漫，看到了自己。",
+      "source": "网络",
+      "source_url": "https://hitokoto.cn/?uuid=00755496-84ee-4f91-85cb-cf2cf241f89e",
+      "upstream_id": 10291,
+      "upstream_category": "e",
+      "author": "0x h41f"
+    },
+    {
+      "id": "hitokoto-c122d118-f2ea-4873-9920-278a8ab3a5c1",
+      "text": "日惟东来，山海不阻，晴雨无伤。",
+      "source": "《源初幻想》",
+      "source_url": "https://hitokoto.cn/?uuid=c122d118-f2ea-4873-9920-278a8ab3a5c1",
+      "upstream_id": 7523,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-0005b120-def6-4bd4-9ea0-2c3e772c5f36",
+      "text": "不登高山，不知天之高也；不临深溪，不知地之厚也。",
+      "source": "劝学",
+      "source_url": "https://hitokoto.cn/?uuid=0005b120-def6-4bd4-9ea0-2c3e772c5f36",
+      "upstream_id": 8552,
+      "upstream_category": "i",
+      "author": "荀子"
+    },
+    {
+      "id": "hitokoto-55af6f29-6fad-44ea-b822-0d5538d2c4c6",
+      "text": "我们执着于模糊的现在，迷茫于陌生的未来，却从未曾发觉，耳边那一阵灿烂的微风。",
+      "source": "声音工作室晚风部",
+      "source_url": "https://hitokoto.cn/?uuid=55af6f29-6fad-44ea-b822-0d5538d2c4c6",
+      "upstream_id": 4407,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-96bdf947-b691-475d-b829-4159e4dd6b93",
+      "text": "世界上的一草一木，一个人，一只动物，甚至一颗微尘，都有它存在的意义。",
+      "source": "yuanziyu",
+      "source_url": "https://hitokoto.cn/?uuid=96bdf947-b691-475d-b829-4159e4dd6b93",
+      "upstream_id": 8699,
+      "upstream_category": "e",
+      "author": "yuanziyu"
+    },
+    {
+      "id": "hitokoto-09d95092-c25d-4170-9627-c636f05f6c19",
+      "text": "不管明天会发生什么，请牢记住今天。",
+      "source": "根号菌SAMA",
+      "source_url": "https://hitokoto.cn/?uuid=09d95092-c25d-4170-9627-c636f05f6c19",
+      "upstream_id": 1156,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-28fd5cc4-20c7-443b-9347-f6f9adb751d6",
+      "text": "鸿雁长飞光不度，鱼龙潜跃水成文。",
+      "source": "春江花月夜",
+      "source_url": "https://hitokoto.cn/?uuid=28fd5cc4-20c7-443b-9347-f6f9adb751d6",
+      "upstream_id": 8760,
+      "upstream_category": "i",
+      "author": "张若虚"
+    },
+    {
+      "id": "hitokoto-f1aad00f-562e-4c30-b63d-c205e11d70b0",
+      "text": "人类不是待优化的算法，而是宇宙中唯一能将错误谱写成诗歌的存在。",
+      "source": "梦境",
+      "source_url": "https://hitokoto.cn/?uuid=f1aad00f-562e-4c30-b63d-c205e11d70b0",
+      "upstream_id": 10347,
+      "upstream_category": "e",
+      "author": "VeilCode"
+    },
+    {
+      "id": "hitokoto-fc4b6ee1-e2be-4b96-a3c5-bb5f1bf2204f",
+      "text": "大鹏一日同风起，扶摇直上九万里。",
+      "source": "上李邕",
+      "source_url": "https://hitokoto.cn/?uuid=fc4b6ee1-e2be-4b96-a3c5-bb5f1bf2204f",
+      "upstream_id": 5659,
+      "upstream_category": "i",
+      "author": "李白"
+    },
+    {
+      "id": "hitokoto-c1b29014-4872-4c70-9d7c-cae72581bd7b",
+      "text": "旧日化白雪，新年踏雪来。",
+      "source": "我的脑子",
+      "source_url": "https://hitokoto.cn/?uuid=c1b29014-4872-4c70-9d7c-cae72581bd7b",
+      "upstream_id": 9681,
+      "upstream_category": "e",
+      "author": "一只生菜"
+    },
+    {
+      "id": "hitokoto-e7470aa2-0615-4a99-a722-60828b64ae21",
+      "text": "不畏浮云遮望眼，只缘身在最高层。",
+      "source": "登飞来峰",
+      "source_url": "https://hitokoto.cn/?uuid=e7470aa2-0615-4a99-a722-60828b64ae21",
+      "upstream_id": 5848,
+      "upstream_category": "i",
+      "author": "王安石"
+    },
+    {
+      "id": "hitokoto-9bf5bfb3-1344-46d4-9eed-ed1103118e23",
+      "text": "沉舟侧畔千帆过，病树前头万木春。",
+      "source": "酬乐天扬州初逢席上见赠",
+      "source_url": "https://hitokoto.cn/?uuid=9bf5bfb3-1344-46d4-9eed-ed1103118e23",
+      "upstream_id": 5569,
+      "upstream_category": "i",
+      "author": "刘禹锡"
+    },
+    {
+      "id": "hitokoto-5feeae81-bf4c-4e0c-bb7d-b2f1ef6fe38a",
+      "text": "愿追逐光明的我们，都会迎来属于自己的春天。",
+      "source": "Xun",
+      "source_url": "https://hitokoto.cn/?uuid=5feeae81-bf4c-4e0c-bb7d-b2f1ef6fe38a",
+      "upstream_id": 9171,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-64d05f29-2aee-499d-bb14-ea4848778040",
+      "text": "一言，一思，一走，一生。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=64d05f29-2aee-499d-bb14-ea4848778040",
+      "upstream_id": 5201,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-50abcb6d-980e-4e7f-811f-a1b61e870463",
+      "text": "一年来一次的人和一年开一次的樱花默默签下了契约。",
+      "source": "花间拾梦",
+      "source_url": "https://hitokoto.cn/?uuid=50abcb6d-980e-4e7f-811f-a1b61e870463",
+      "upstream_id": 9438,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-dabe4a0e-fa27-4476-b026-1bd4dd8f7ee4",
+      "text": "草长莺飞二月天，拂堤杨柳醉春烟。",
+      "source": "村居",
+      "source_url": "https://hitokoto.cn/?uuid=dabe4a0e-fa27-4476-b026-1bd4dd8f7ee4",
+      "upstream_id": 5735,
+      "upstream_category": "i",
+      "author": "高鼎"
+    },
+    {
+      "id": "hitokoto-43c536af-74e1-43e7-8b10-4db844fae3b4",
+      "text": "海上生明月，天涯共此时。",
+      "source": "望月怀远",
+      "source_url": "https://hitokoto.cn/?uuid=43c536af-74e1-43e7-8b10-4db844fae3b4",
+      "upstream_id": 5527,
+      "upstream_category": "i",
+      "author": "张九龄"
+    },
+    {
+      "id": "hitokoto-d7451e05-37dc-43eb-aefd-6d0a906198b1",
+      "text": "正因为拥有独立思考的能力，所以我们不再受制于“别人说什么”和“大家说什么”，而还可以说“我发现了什么”。",
+      "source": "MySelf",
+      "source_url": "https://hitokoto.cn/?uuid=d7451e05-37dc-43eb-aefd-6d0a906198b1",
+      "upstream_id": 6901,
+      "upstream_category": "e",
+      "author": "pokon548"
+    },
+    {
+      "id": "hitokoto-7da9e966-393a-4d0e-a702-009864a7975b",
+      "text": "梦想不应被嘲笑，也应该不惧流言！",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=7da9e966-393a-4d0e-a702-009864a7975b",
+      "upstream_id": 4391,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-b9a9c440-bd34-4df1-b108-5b0badbf6a31",
+      "text": "愿生活即使周而复始，也有意气相投的知音。",
+      "source": "VeilCode",
+      "source_url": "https://hitokoto.cn/?uuid=b9a9c440-bd34-4df1-b108-5b0badbf6a31",
+      "upstream_id": 10348,
+      "upstream_category": "e",
+      "author": "VeilCode"
+    },
+    {
+      "id": "hitokoto-e28093f9-86ae-45de-aef8-85797b4310a7",
+      "text": "梦想脱胎于现实，现实由梦想所化。",
+      "source": "这个世界属于你",
+      "source_url": "https://hitokoto.cn/?uuid=e28093f9-86ae-45de-aef8-85797b4310a7",
+      "upstream_id": 6661,
+      "upstream_category": "e",
+      "author": "寸惑"
+    },
+    {
+      "id": "hitokoto-33dd4c25-b432-4030-84c8-88d1c3edf1e2",
+      "text": "金子与钻石都不是唯一的，可你却是。",
+      "source": "Enthon聪明的小脑袋瓜",
+      "source_url": "https://hitokoto.cn/?uuid=33dd4c25-b432-4030-84c8-88d1c3edf1e2",
+      "upstream_id": 7420,
+      "upstream_category": "e",
+      "author": "Enthon"
+    },
+    {
+      "id": "hitokoto-802b3f74-f10e-4c16-9acb-c16eaf5f910b",
+      "text": "时岁可忆流年，久别仍知归途。",
+      "source": "《源初幻想》",
+      "source_url": "https://hitokoto.cn/?uuid=802b3f74-f10e-4c16-9acb-c16eaf5f910b",
+      "upstream_id": 7493,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-34b25795-4507-43db-a85f-8ab25d3ffe25",
+      "text": "闺中风暖，陌上草薰。",
+      "source": "别赋",
+      "source_url": "https://hitokoto.cn/?uuid=34b25795-4507-43db-a85f-8ab25d3ffe25",
+      "upstream_id": 8445,
+      "upstream_category": "i",
+      "author": "江淹"
+    },
+    {
+      "id": "hitokoto-4d897880-50f0-44ef-8c7c-67cc7b9709bb",
+      "text": "珍藏于心底的时光，是记忆深处最美的花。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=4d897880-50f0-44ef-8c7c-67cc7b9709bb",
+      "upstream_id": 7328,
+      "upstream_category": "e",
+      "author": "沐云湘夕"
+    },
+    {
+      "id": "hitokoto-ecd7eb82-2ef5-4f23-8e24-ee58a5715ef6",
+      "text": "天上的风一定很大，把满团的月光吹散了，化为萤火，洒满了蓝紫的夜。",
+      "source": "《星月夜》",
+      "source_url": "https://hitokoto.cn/?uuid=ecd7eb82-2ef5-4f23-8e24-ee58a5715ef6",
+      "upstream_id": 7112,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-20e5a664-2a42-47bf-acfd-0abf15d59e3c",
+      "text": "如果你也有还未做完的梦，还请将它撒入这片星河。",
+      "source": "linkey2011",
+      "source_url": "https://hitokoto.cn/?uuid=20e5a664-2a42-47bf-acfd-0abf15d59e3c",
+      "upstream_id": 9913,
+      "upstream_category": "e",
+      "author": "linkey2011"
+    },
+    {
+      "id": "hitokoto-6ceec2ea-c64b-41f3-9dad-e45683e82fad",
+      "text": "所赴远山，其下皆川。",
+      "source": "源初幻想",
+      "source_url": "https://hitokoto.cn/?uuid=6ceec2ea-c64b-41f3-9dad-e45683e82fad",
+      "upstream_id": 8585,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-9f8b6405-090c-4fd1-a7e3-4138ae16426b",
+      "text": "我们站在去与来的中间，我们告别过去，我们追逐明天。",
+      "source": "Xun",
+      "source_url": "https://hitokoto.cn/?uuid=9f8b6405-090c-4fd1-a7e3-4138ae16426b",
+      "upstream_id": 9175,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-b9c40cf1-fad6-45fe-916e-354ac790d6a3",
+      "text": "坚定信念走下去。",
+      "source": "孤影墨香",
+      "source_url": "https://hitokoto.cn/?uuid=b9c40cf1-fad6-45fe-916e-354ac790d6a3",
+      "upstream_id": 4282,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-5aef4e77-6a40-4038-8670-de4a20f6752f",
+      "text": "夏雨微尘轻拂袖，两衫风雪若得闲。",
+      "source": "随笔",
+      "source_url": "https://hitokoto.cn/?uuid=5aef4e77-6a40-4038-8670-de4a20f6752f",
+      "upstream_id": 4540,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-7eb1962c-b0d3-4764-ad42-d182c5d6485b",
+      "text": "糁径杨花铺白毡，点溪荷叶叠青钱。",
+      "source": "绝句漫兴九首·其七",
+      "source_url": "https://hitokoto.cn/?uuid=7eb1962c-b0d3-4764-ad42-d182c5d6485b",
+      "upstream_id": 8209,
+      "upstream_category": "i",
+      "author": "杜甫"
+    },
+    {
+      "id": "hitokoto-0c0773c7-4e33-43fd-bca4-0dcb54d84b45",
+      "text": "飘摇风雨中，五色穹顶下，阳光被映出彩虹的颜色。",
+      "source": "花间拾梦",
+      "source_url": "https://hitokoto.cn/?uuid=0c0773c7-4e33-43fd-bca4-0dcb54d84b45",
+      "upstream_id": 9435,
+      "upstream_category": "e",
+      "author": "CuSO4"
+    },
+    {
+      "id": "hitokoto-d87d5723-1906-46bc-bb10-ac9b18e57bff",
+      "text": "江流天地外，山色有无中。",
+      "source": "汉江临泛 / 汉江临眺",
+      "source_url": "https://hitokoto.cn/?uuid=d87d5723-1906-46bc-bb10-ac9b18e57bff",
+      "upstream_id": 5810,
+      "upstream_category": "i",
+      "author": "王维"
+    },
+    {
+      "id": "hitokoto-adfed409-0a6a-44f6-bb44-8b72e2eb4864",
+      "text": "我和别人的故事很少，却和自己的故事有很多。",
+      "source": "linkey2011",
+      "source_url": "https://hitokoto.cn/?uuid=adfed409-0a6a-44f6-bb44-8b72e2eb4864",
+      "upstream_id": 8439,
+      "upstream_category": "e",
+      "author": "linkey2011"
+    },
+    {
+      "id": "hitokoto-b0d30706-9bb9-4841-913e-36ef87b251b7",
+      "text": "好雨知时节，当春乃发生。",
+      "source": "春夜喜雨",
+      "source_url": "https://hitokoto.cn/?uuid=b0d30706-9bb9-4841-913e-36ef87b251b7",
+      "upstream_id": 5787,
+      "upstream_category": "i",
+      "author": "杜甫"
+    },
+    {
+      "id": "hitokoto-308efb4c-ef95-4ff2-a502-8f6b756eb2ea",
+      "text": "每个人的身上都有太阳，重要的是如何让它发光。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=308efb4c-ef95-4ff2-a502-8f6b756eb2ea",
+      "upstream_id": 6614,
+      "upstream_category": "e",
+      "author": "Seddy"
+    },
+    {
+      "id": "hitokoto-bfb4d87f-e512-485e-a286-2ffdfa687d30",
+      "text": "月光的银边把广袤的夜空烫出个洞，里头塞满了少年的梦想。",
+      "source": "月亮",
+      "source_url": "https://hitokoto.cn/?uuid=bfb4d87f-e512-485e-a286-2ffdfa687d30",
+      "upstream_id": 7345,
+      "upstream_category": "e",
+      "author": "余川"
+    },
+    {
+      "id": "hitokoto-c8903cc0-eda0-4dd2-b0d6-37c93751cb44",
+      "text": "缓缓流下的时光，照进你的眼睛，流进你的心里，印在你的笑里。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=c8903cc0-eda0-4dd2-b0d6-37c93751cb44",
+      "upstream_id": 7262,
+      "upstream_category": "e",
+      "author": "一只叫一行的喵"
+    },
+    {
+      "id": "hitokoto-b043c902-6614-4a06-a608-463d971e58b0",
+      "text": "前进路上的阴影，来自身后的光明。",
+      "source": "无心却总伤心",
+      "source_url": "https://hitokoto.cn/?uuid=b043c902-6614-4a06-a608-463d971e58b0",
+      "upstream_id": 4400,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-4432c823-425c-49b1-b7a6-4f0b556d4914",
+      "text": "相遇不一定有结果，但一定有意义。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=4432c823-425c-49b1-b7a6-4f0b556d4914",
+      "upstream_id": 7379,
+      "upstream_category": "e",
+      "author": "楠枫"
+    },
+    {
+      "id": "hitokoto-231fb364-666f-4443-81f2-7f44d65b98cb",
+      "text": "把酒祝东风。且共从容。",
+      "source": "浪淘沙·把酒祝东风",
+      "source_url": "https://hitokoto.cn/?uuid=231fb364-666f-4443-81f2-7f44d65b98cb",
+      "upstream_id": 5562,
+      "upstream_category": "i",
+      "author": "欧阳修"
+    },
+    {
+      "id": "hitokoto-911cb04d-4ae6-45f2-936c-0d5e4040a87a",
+      "text": "学习让技束成为技术！",
+      "source": "自己想出来的",
+      "source_url": "https://hitokoto.cn/?uuid=911cb04d-4ae6-45f2-936c-0d5e4040a87a",
+      "upstream_id": 9385,
+      "upstream_category": "e",
+      "author": "道生"
+    },
+    {
+      "id": "hitokoto-36ddd370-aa9c-409c-badc-f8b10cf62ad5",
+      "text": "过俗世的生活，做通天的梦，手不能触及的，心可以直达。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=36ddd370-aa9c-409c-badc-f8b10cf62ad5",
+      "upstream_id": 5365,
+      "upstream_category": "e",
+      "author": "陈树凤"
+    },
+    {
+      "id": "hitokoto-41891de3-5794-4139-832a-3cdf28e67b09",
+      "text": "青山依旧在，几度夕阳红。",
+      "source": "临江仙·滚滚长江东逝水",
+      "source_url": "https://hitokoto.cn/?uuid=41891de3-5794-4139-832a-3cdf28e67b09",
+      "upstream_id": 5526,
+      "upstream_category": "i",
+      "author": "杨慎"
+    },
+    {
+      "id": "hitokoto-2cbcdf76-6833-4da0-b23c-3b34d8f4693d",
+      "text": "当星星变成星空，梦想也就近在咫尺了。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=2cbcdf76-6833-4da0-b23c-3b34d8f4693d",
+      "upstream_id": 7695,
+      "upstream_category": "e",
+      "author": "一只叫一行的喵"
+    },
+    {
+      "id": "hitokoto-0123b599-8267-4329-b752-8a0369e807ea",
+      "text": "不在乎世俗的眼光，去追求，自己的光芒。",
+      "source": "XIN",
+      "source_url": "https://hitokoto.cn/?uuid=0123b599-8267-4329-b752-8a0369e807ea",
+      "upstream_id": 9092,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-ac038235-418d-4f3b-9c30-8a4649b50b54",
+      "text": "好想变成猫，蹭蹭就能睡。",
+      "source": "做魚玉子燒",
+      "source_url": "https://hitokoto.cn/?uuid=ac038235-418d-4f3b-9c30-8a4649b50b54",
+      "upstream_id": 10458,
+      "upstream_category": "e",
+      "author": "做魚玉子燒"
+    },
+    {
+      "id": "hitokoto-d810ab71-3e44-45c7-a581-63c15fd62714",
+      "text": "饮疏狂之酿，品淡泊之茗。",
+      "source": "无",
+      "source_url": "https://hitokoto.cn/?uuid=d810ab71-3e44-45c7-a581-63c15fd62714",
+      "upstream_id": 10719,
+      "upstream_category": "e",
+      "author": "枍鹓"
+    },
+    {
+      "id": "hitokoto-cb4109d5-c8e8-40ce-93b0-2c7cdf2ae127",
+      "text": "不以为然的存在，细品起来会得到意想不到的有趣。",
+      "source": "小世",
+      "source_url": "https://hitokoto.cn/?uuid=cb4109d5-c8e8-40ce-93b0-2c7cdf2ae127",
+      "upstream_id": 6187,
+      "upstream_category": "e",
+      "author": "朴素"
+    },
+    {
+      "id": "hitokoto-c53f6c01-d633-46f3-90b8-bf32ccf09302",
+      "text": "每个人生来都是妄想家",
+      "source": "mozei",
+      "source_url": "https://hitokoto.cn/?uuid=c53f6c01-d633-46f3-90b8-bf32ccf09302",
+      "upstream_id": 3891,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-539e4fd6-d922-4915-8db7-7d6b55bac77b",
+      "text": "如今的不务正业也许是在支援未来的自己。",
+      "source": "素色弧线",
+      "source_url": "https://hitokoto.cn/?uuid=539e4fd6-d922-4915-8db7-7d6b55bac77b",
+      "upstream_id": 11049,
+      "upstream_category": "e",
+      "author": "素色弧线"
+    },
+    {
+      "id": "hitokoto-b99c8a47-4b4f-4c84-b074-31505b43ba5a",
+      "text": "浩如星海的人群中，与你相遇真是一件幸运的事情",
+      "source": "小小柳之絮",
+      "source_url": "https://hitokoto.cn/?uuid=b99c8a47-4b4f-4c84-b074-31505b43ba5a",
+      "upstream_id": 5036,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-158034d8-9eb7-48a3-98e0-fb472a0f2b41",
+      "text": "我在出差的高铁上晒着太阳，装作出门旅行的模样。",
+      "source": "个人",
+      "source_url": "https://hitokoto.cn/?uuid=158034d8-9eb7-48a3-98e0-fb472a0f2b41",
+      "upstream_id": 11683,
+      "upstream_category": "e",
+      "author": "T&Z"
+    },
+    {
+      "id": "hitokoto-94c3db12-ef22-4528-8899-2763a88686c3",
+      "text": "如果没什么好事发生的话，就把没有发生坏事的每一天当作好事吧。",
+      "source": "万事屋神乐酱",
+      "source_url": "https://hitokoto.cn/?uuid=94c3db12-ef22-4528-8899-2763a88686c3",
+      "upstream_id": 345,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-01a897ed-93fc-46f0-a34e-a60ef60ca26e",
+      "text": "人生路上，岔路口。如何走？自己的路。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=01a897ed-93fc-46f0-a34e-a60ef60ca26e",
+      "upstream_id": 6084,
+      "upstream_category": "e",
+      "author": "GoodChing"
+    },
+    {
+      "id": "hitokoto-5d466a87-acc1-4f84-88e0-073ffcc820b3",
+      "text": "然而世事千帆而过 路的尽头终归是温柔和月光",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=5d466a87-acc1-4f84-88e0-073ffcc820b3",
+      "upstream_id": 4587,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-cf8f4485-5123-4344-b20d-ecc9537c2e16",
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "临江仙·送钱穆父",
+      "source_url": "https://hitokoto.cn/?uuid=cf8f4485-5123-4344-b20d-ecc9537c2e16",
+      "upstream_id": 5444,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-4c59ecca-3a72-43af-8bb2-9e9aed73e311",
+      "text": "加油！和你们在一起！",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=4c59ecca-3a72-43af-8bb2-9e9aed73e311",
+      "upstream_id": 766,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-3d6fadf5-0f32-4acc-ae55-249e557d140d",
+      "text": "再逛逛呗，没准就找着了呢？",
+      "source": "悬索之林",
+      "source_url": "https://hitokoto.cn/?uuid=3d6fadf5-0f32-4acc-ae55-249e557d140d",
+      "upstream_id": 10079,
+      "upstream_category": "e",
+      "author": "白热背景辐射"
+    },
+    {
+      "id": "hitokoto-8a67cb5f-e107-4f06-b4bf-7548e54f1deb",
+      "text": "七八个星天外，两三点雨山前。",
+      "source": "西江月·夜行黄沙道中",
+      "source_url": "https://hitokoto.cn/?uuid=8a67cb5f-e107-4f06-b4bf-7548e54f1deb",
+      "upstream_id": 5670,
+      "upstream_category": "i",
+      "author": "辛弃疾"
+    },
+    {
+      "id": "hitokoto-086aa54b-0a99-4a29-86d5-6b83c467c8a3",
+      "text": "读万卷书，行万里路。",
+      "source": "画禅室随笔——卷二",
+      "source_url": "https://hitokoto.cn/?uuid=086aa54b-0a99-4a29-86d5-6b83c467c8a3",
+      "upstream_id": 7312,
+      "upstream_category": "i",
+      "author": "董其昌"
+    },
+    {
+      "id": "hitokoto-788b4bdb-e4e8-4af7-ae49-960de695b606",
+      "text": "这件事犹如风一般，掀开了我人生的下一场幕布。",
+      "source": "安讯七旬",
+      "source_url": "https://hitokoto.cn/?uuid=788b4bdb-e4e8-4af7-ae49-960de695b606",
+      "upstream_id": 7687,
+      "upstream_category": "e",
+      "author": "安"
+    },
+    {
+      "id": "hitokoto-76324aa4-2c06-4e7a-8945-2baade932230",
+      "text": "毕竟西湖六月中，风光不与四时同。",
+      "source": "晓出净慈寺送林子方",
+      "source_url": "https://hitokoto.cn/?uuid=76324aa4-2c06-4e7a-8945-2baade932230",
+      "upstream_id": 5754,
+      "upstream_category": "i",
+      "author": "杨万里"
+    },
+    {
+      "id": "hitokoto-6989d546-7f28-4774-a24f-83f32714f688",
+      "text": "我们奔跑在曲折的时空，过去与未来发生交折。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=6989d546-7f28-4774-a24f-83f32714f688",
+      "upstream_id": 7482,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-e5910444-76d4-4401-8013-8bdfab428954",
+      "text": "醉后不知天在水，满船清梦压星河。",
+      "source": "题龙阳县青草湖",
+      "source_url": "https://hitokoto.cn/?uuid=e5910444-76d4-4401-8013-8bdfab428954",
+      "upstream_id": 5456,
+      "upstream_category": "i",
+      "author": "唐温如"
+    },
+    {
+      "id": "hitokoto-343623e3-5f3d-4a2b-91f1-71982d20c8f4",
+      "text": "一副美丽的画作是由一个个简单的点组成的，一段宏伟的代码也是由一个个字符组成的。",
+      "source": "某此抖机灵的产物",
+      "source_url": "https://hitokoto.cn/?uuid=343623e3-5f3d-4a2b-91f1-71982d20c8f4",
+      "upstream_id": 10300,
+      "upstream_category": "e",
+      "author": "无名氏"
+    },
+    {
+      "id": "hitokoto-4c52ea7b-fb5c-460a-9f94-f013f343b2ac",
+      "text": "蝶舞休时，大梦初醒，万籁俱静。",
+      "source": "梦蝶",
+      "source_url": "https://hitokoto.cn/?uuid=4c52ea7b-fb5c-460a-9f94-f013f343b2ac",
+      "upstream_id": 10803,
+      "upstream_category": "e",
+      "author": "笙"
+    },
+    {
+      "id": "hitokoto-fe2389c3-e628-480a-87fa-d2cd41d4cc86",
+      "text": "我想，当风吹过的时候，我可以拥抱这个世界。",
+      "source": "随笔",
+      "source_url": "https://hitokoto.cn/?uuid=fe2389c3-e628-480a-87fa-d2cd41d4cc86",
+      "upstream_id": 7113,
+      "upstream_category": "e",
+      "author": "落雨成声"
+    },
+    {
+      "id": "hitokoto-12fe3196-fa09-410f-9ba0-b5782b01a52f",
+      "text": "从来处来，望尽岁月如歌，莫忘来时之路。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=12fe3196-fa09-410f-9ba0-b5782b01a52f",
+      "upstream_id": 8182,
+      "upstream_category": "e",
+      "author": "Rene"
+    },
+    {
+      "id": "hitokoto-ee3e0359-0234-43b8-8660-a96109fe2851",
+      "text": "明月几时有？把酒问青天。",
+      "source": "水调歌头·丙辰中秋",
+      "source_url": "https://hitokoto.cn/?uuid=ee3e0359-0234-43b8-8660-a96109fe2851",
+      "upstream_id": 5665,
+      "upstream_category": "i",
+      "author": "苏轼"
+    },
+    {
+      "id": "hitokoto-cb322d58-b148-4e1b-92e6-e7ab65a666cb",
+      "text": "何其有幸，我们相遇。",
+      "source": "朽猫",
+      "source_url": "https://hitokoto.cn/?uuid=cb322d58-b148-4e1b-92e6-e7ab65a666cb",
+      "upstream_id": 1132,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-7abc96e3-ea38-4123-9692-2ccbfc4745d9",
+      "text": "人终其一生都是自我改善的过程。",
+      "source": "Bruce Jc",
+      "source_url": "https://hitokoto.cn/?uuid=7abc96e3-ea38-4123-9692-2ccbfc4745d9",
+      "upstream_id": 1375,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-2196fcdc-82fb-4136-ac72-665a646935e6",
+      "text": "生命的最终奥义，不过就是活得自在罢了。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=2196fcdc-82fb-4136-ac72-665a646935e6",
+      "upstream_id": 5018,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-4beb4192-7e1e-457c-9e5b-622b5ebd12d1",
+      "text": "有时候，幸福不是越多越好，而是要恰到好处。",
+      "source": "意创",
+      "source_url": "https://hitokoto.cn/?uuid=4beb4192-7e1e-457c-9e5b-622b5ebd12d1",
+      "upstream_id": 9309,
+      "upstream_category": "e",
+      "author": "雅"
+    },
+    {
+      "id": "hitokoto-f12c12c2-279f-418a-bf74-3fbd202b754c",
+      "text": "东风夜放花千树。更吹落、星如雨。",
+      "source": "青玉案·元夕",
+      "source_url": "https://hitokoto.cn/?uuid=f12c12c2-279f-418a-bf74-3fbd202b754c",
+      "upstream_id": 5530,
+      "upstream_category": "i",
+      "author": "辛弃疾"
+    },
+    {
+      "id": "hitokoto-3f29c6fd-aee3-45de-9840-0e2962d0cd93",
+      "text": "有任何人在意自己，都是幸福的",
+      "source": "Diving_lin",
+      "source_url": "https://hitokoto.cn/?uuid=3f29c6fd-aee3-45de-9840-0e2962d0cd93",
+      "upstream_id": 5037,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-7f368386-816d-424a-8acb-30d8dbb73b83",
+      "text": "是，你是这个世界的人，但同时你要相信你创造的世界也是存在的。",
+      "source": "bia",
+      "source_url": "https://hitokoto.cn/?uuid=7f368386-816d-424a-8acb-30d8dbb73b83",
+      "upstream_id": 5374,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-83304462-2325-47cb-b36c-367bfefc7f08",
+      "text": "每一天都可能会有刷新你世界观的事。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=83304462-2325-47cb-b36c-367bfefc7f08",
+      "upstream_id": 3596,
+      "upstream_category": "e"
+    },
+    {
+      "id": "hitokoto-57108a5e-212f-4d1a-bce2-ea27c4b137d7",
+      "text": "愿你晴雨无伤。",
+      "source": "《源初幻想》",
+      "source_url": "https://hitokoto.cn/?uuid=57108a5e-212f-4d1a-bce2-ea27c4b137d7",
+      "upstream_id": 7473,
+      "upstream_category": "e",
+      "author": "鹤空流乂"
+    },
+    {
+      "id": "hitokoto-8a259e33-2069-4e1c-b056-f6d0d91dc163",
+      "text": "趁现在吧，一点一点，重新来过。",
+      "source": "原创",
+      "source_url": "https://hitokoto.cn/?uuid=8a259e33-2069-4e1c-b056-f6d0d91dc163",
+      "upstream_id": 6153,
+      "upstream_category": "e",
+      "author": "边妤仙"
+    },
+    {
+      "id": "hitokoto-81d9e86f-a313-41e1-9b0d-f504bcebdfb0",
+      "text": "江碧鸟逾白，山青花欲燃。",
+      "source": "绝句二首",
+      "source_url": "https://hitokoto.cn/?uuid=81d9e86f-a313-41e1-9b0d-f504bcebdfb0",
+      "upstream_id": 5536,
+      "upstream_category": "i",
+      "author": "杜甫"
+    },
+    {
+      "id": "hitokoto-46f758f8-a1f1-4086-8742-598e9eb8d1ba",
+      "text": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "行路难·其一",
+      "source_url": "https://hitokoto.cn/?uuid=46f758f8-a1f1-4086-8742-598e9eb8d1ba",
+      "upstream_id": 5589,
+      "upstream_category": "i",
+      "author": "李白"
+    }
+  ]
+}

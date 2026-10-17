@@ -1,0 +1,9 @@
+.overview-focus{display:none;min-width:0;gap:20px;align-items:center;justify-content:space-between;padding:18px 22px;margin:0 0 16px;background:#f0f5ed;border:1px solid #dbe5d5;border-radius:12px}
+.workspace[data-page=overview] .overview-focus{display:flex}
+.overview-focus-body{min-width:0}
+.overview-focus h2{font-size:12px;font-weight:550;color:#496952;line-height:1.6;margin:0 0 4px}
+.overview-focus-body>strong{display:block;font-size:17px;font-weight:650;line-height:1.6;overflow-wrap:anywhere;color:#254c3b}
+.overview-focus p{font-size:12px;line-height:1.7;color:#4c6653;margin:4px 0 0}
+.overview-focus-actions{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex:none;flex-wrap:wrap}
+.overview-focus-actions button{min-height:44px;font-size:13px;padding:10px 16px;white-space:nowrap}
+@media(max-width:760px){.workspace[data-page=overview] .overview-focus{display:block;padding:16px;margin-bottom:14px}.overview-focus-body>strong{font-size:16px}.overview-focus-actions{margin-top:12px;justify-content:flex-start}.overview-focus-actions button{flex:1;padding:10px 12px}}
